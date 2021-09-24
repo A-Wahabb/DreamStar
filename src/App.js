@@ -7,15 +7,15 @@ import AppDevelopment from './pages/AppDevelopment';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import WebDevelopment from './pages/WebDevelopment';
-
+import  Navbar  from "./components/navbar/index.js";
 import Contact from './pages/Contact';
-import Navbar from './Components/Navbar';
+
 
 
 function App() {
 return (
 	<Router>
-   <Navbar/>
+    <Navbar />
 	<Switch>
 		<Route path='/' exact component={Home} />
 		<Route path='/about' component={AboutUs} />
