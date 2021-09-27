@@ -1,30 +1,59 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import {BrowserRouter ,Link, Route, Switch } from 'react-router-dom'
+import Home from "./components/Home";
+import About from "./components/About";
+import WebDevelopment from './components/WebDevelopmet';
+import AppDevelopment from './components/AppDevelopment';
+import ContactUs from './components/ContactUs';
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+//branche 
+const App = () => {
+    return (
+        
+    <BrowserRouter>
+        <div className='Nav-part'>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About Us</Link>
+          </li>
+          <li>
+            <Link to="/web-development">Web Development</Link>
+          </li>
+          <li>
+            <Link to="/app-development">App Development</Link>
+          </li>
+          <li>
+            <Link to="/contact-us">Contact Us</Link>
+          </li>
 
-import AppDevelopment from './pages/AppDevelopment';
-import Home from './pages/Home';
-import AboutUs from './pages/AboutUs';
-import WebDevelopment from './pages/WebDevelopment';
-import  Navbar  from "./components/navbar/index.js";
-import Contact from './pages/Contact';
+        </ul>
 
+        </div>
+      
+        <hr />
 
-
-function App() {
-return (
-	<Router>
-    <Navbar />
-	<Switch>
-		<Route path='/' exact component={Home} />
-		<Route path='/about' component={AboutUs} />
-		<Route path='/appdevelopment' component={AppDevelopment} />
-		<Route path='/webdevelopment' component={WebDevelopment} />
-		<Route path='/contactus' component={Contact} />
-	</Switch>
-	</Router>
-);
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/about">
+           <About/>   
+          </Route>
+          <Route path="/web-development">
+              <WebDevelopment/>
+          </Route>
+          <Route path="/app-development">
+              <AppDevelopment />
+          </Route>
+          <Route path="/contact-us">
+              <ContactUs/>
+          </Route>
+        </Switch>
+        </BrowserRouter>
+    )
 }
 
 export default App;
