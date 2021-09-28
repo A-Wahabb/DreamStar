@@ -20,10 +20,10 @@ const App = () => {
             <Link to="/about">About Us</Link>
           </li>
           <li>
-            <Link to="/web-development">Web Development</Link>
+            <Link to="/app-development">App Development</Link>
           </li>
           <li>
-            <Link to="/app-development">App Development</Link>
+          <Link to="/web-development">Web Development</Link>
           </li>
           <li>
             <Link to="/contact-us">Contact Us</Link>
@@ -42,11 +42,11 @@ const App = () => {
           <Route path="/about">
            <About/>   
           </Route>
-          <Route path="/web-development">
-              <WebDevelopment/>
-          </Route>
           <Route path="/app-development">
               <AppDevelopment />
+          </Route>
+          <Route path="/web-development">
+              <WebDevelopment/>
           </Route>
           <Route path="/contact-us">
               <ContactUs/>
