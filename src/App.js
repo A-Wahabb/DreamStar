@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css'
 import {BrowserRouter ,Link, Route, Switch } from 'react-router-dom'
 import Home from "./components/Home";
 import About from "./components/About";
@@ -11,6 +12,7 @@ const App = () => {
     return (
         
     <BrowserRouter>
+    <div className='main'>
         <div className='Nav-part'>
         <ul>
           <li>
@@ -32,8 +34,8 @@ const App = () => {
         </ul>
 
         </div>
-      
-        <hr />
+       </div>      
+        
 
         <Switch>
           <Route exact path="/">
