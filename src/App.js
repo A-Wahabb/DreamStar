@@ -6,38 +6,41 @@ import About from "./components/About";
 import WebDevelopment from './components/WebDevelopmet';
 import AppDevelopment from './components/AppDevelopment';
 import ContactUs from './components/ContactUs';
+// import AppLogo from './components/ParticalScreen/Logo';
 
 //branche 
 const App = () => {
     return (
-        
     <BrowserRouter>
-    <div className='main'>
+      <div> 
+           
         <div className='Nav-part'>
-        <ul>
+         
+         <div className='links'>
+         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/"  style={{ textDecoration: 'none' }}>Home</Link>
           </li>
           <li>
-            <Link to="/about">About Us</Link>
+            <Link to="/about" style={{ textDecoration: 'none' }}>About Us</Link>
           </li>
           <li>
-            <Link to="/app-development">App Development</Link>
+            <Link to="/app-development" style={{ textDecoration: 'none' }}>App Development</Link>
           </li>
           <li>
-          <Link to="/web-development">Web Development</Link>
+          <Link to="/web-development" style={{ textDecoration: 'none' }}>Web Development</Link>
           </li>
           <li>
-            <Link to="/contact-us">Contact Us</Link>
+            <Link to="/contact-us" style={{ textDecoration: 'none' }}>Contact Us</Link>
           </li>
 
         </ul>
 
-        </div>
-       </div>      
-        
-
-        <Switch>
+         </div>
+        </div>   
+        <hr/>
+       <div className='body'>
+       <Switch>
           <Route exact path="/">
             <Home />
           </Route>
@@ -54,7 +57,13 @@ const App = () => {
               <ContactUs/>
           </Route>
         </Switch>
+       </div>
+      </div>
+       
+       
+       
         </BrowserRouter>
+        
     )
 }
 

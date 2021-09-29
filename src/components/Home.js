@@ -1,6 +1,6 @@
 import React from "react";
 import './Home.css';
-import './ParticalScreen/Slider';
+import Slider from './ParticalScreen/Slider.js'
 
 const Home=()=>{
     return(
