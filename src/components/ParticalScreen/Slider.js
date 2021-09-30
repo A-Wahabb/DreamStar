@@ -9,35 +9,18 @@ import './slider.css'
 
 
 const Slider = () => {
-    const [isMobile, setIsMobile] = useState(false)
-    const handleResize = () => {
-        if (window.innerWidth < 600) {
-            setIsMobile(true)
-            console.info(isMobile)
-        } else {
-            setIsMobile(false)
-          
-        }
-      }
-      useEffect(()=>{
-        handleResize()
-       
-    },[])
-      useEffect(()=>{
-          window.addEventListener('resize',handleResize)
-      })
     return (
         <div>
         <div  className='heroBlock'>
         <Carousel autoplay effect='scrollx'>
     <div>
-        <img src={slideone} alt='slideone'  width='100%' height={!isMobile?'600px':'350px'}/>
+        <img src={slideone} alt='slideone'  width='100%' height='600px'/>
     </div>
     <div>
-        <img src={webDevelopment} alt='webDevelopment'  width='100%' height={!isMobile?'600px':'350px'}/>
+        <img src={webDevelopment} alt='webDevelopment'  width='100%' height='600px'/>
     </div>
     <div>
-        <img src={AppDevelopment} alt='AppDevelopment' width='100%' height={!isMobile?'600px':'350px'}/>
+        <img src={AppDevelopment} alt='AppDevelopment' width='100%' height='600px'/>
     </div>
     
     
