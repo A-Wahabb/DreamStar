@@ -4,7 +4,7 @@ import Slider from './ParticalScreen/Slider.js'
 
 const Home=()=>{
     return(
-        <div>
+        <div className='home'>
             <Slider/>
         </div>
     )
