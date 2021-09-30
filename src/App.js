@@ -6,7 +6,7 @@ import About from "./components/About";
 import WebDevelopment from './components/WebDevelopmet';
 import AppDevelopment from './components/AppDevelopment';
 import ContactUs from './components/ContactUs';
-// import AppLogo from './components/ParticalScreen/Logo';
+ import dsclogo from './dsclogo.png';
 
 //branche 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
       <div> 
            
         <div className='Nav-part'>
-         
+         <img src={dsclogo} title='DreamStarCoder'  height={80} width={90} />
          <div className='links'>
          <ul>
           <li>
@@ -37,8 +37,9 @@ const App = () => {
         </ul>
 
          </div>
+        
+
         </div>   
-        <hr/>
        <div className='body'>
        <Switch>
           <Route exact path="/">
