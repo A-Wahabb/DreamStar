@@ -1,10 +1,10 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import './slider.css'
  import { Carousel } from 'antd';
 
  //importing slider images
  import slideone from '../../Assets/Images/Slider/slideone.jpg'
- import webDevelopment from '../../Assets/Images/Slider/webDevelopment.jpg'
+ import webDevelopment from '../../Assets/Images/Slider/wedDevelopment.jpg'
  import AppDevelopment from '../../Assets/Images/Slider/AppDevelopment.jpg'
 
 
