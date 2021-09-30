@@ -3,9 +3,9 @@ import './slider.css'
  import { Carousel } from 'antd';
 
  //importing slider images
- import slideone from '../../../public/Slider/slideone.jpg'
- import webDevelopment from '../../../public/Slider/webDevelopment.jpg'
- import AppDevelopment from '../../../public/Slider/AppDevelopment.jpg'
+ import slideone from '../../Assets/Images/Slider/slideone.jpg'
+ import webDevelopment from '../../Assets/Images/Slider/webDevelopment.jpg'
+ import AppDevelopment from '../../Assets/Images/Slider/AppDevelopment.jpg'
 
 
 const Slider = () => {
