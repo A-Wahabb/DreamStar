@@ -9,6 +9,8 @@ import './slider.css'
 
 
 const Slider = () => {
+
+    
     return (
         <div>
         <div  className='heroBlock'>

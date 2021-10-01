@@ -1,9 +1,9 @@
 import React from "react";
-
+import slideone from '../Assets/Images/Slider/slideone.jpg'
 const About=()=>{
     return(
         <div>
-            About us
+         <img src={slideone} alt='img' width='100%' height='500px'/>
         </div>
     )
 }

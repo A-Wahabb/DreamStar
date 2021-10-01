@@ -38,7 +38,7 @@ const App = () => {
 
          </div>
         </div>   
-        <hr/>
+       
        <div className='body'>
        <Switch>
           <Route exact path="/">
