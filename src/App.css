@@ -1,22 +1,57 @@
+<<<<<<< HEAD
 
 .Nav-part{
     width: 100%;
     height: 60px;
    
+=======
+.parent{
+  margin: 0px;
+  padding: 0px;
+}
+.logo{
+  display: inline-block;
+  width: 150px;
+  height: 124px;
+  margin: 0px 10px 10px 4%;
+  padding: .1%;
+}
+.Nav-part{
+    display: block;
+    height: 160px;
+    margin: 0px;
+>>>>>>> 550304e82b0439d4d4f952f1813090e49964c242
 }
 
-.links ul,.links ul li{
-    text-decoration: none;
-    list-style: none;
-    display: inline-block;
-    
-    
+.non-mobile-links{
+  position: relative;
+  float:right;
+  right: 5%;
+  top: 50%;
 }
-.links{
-    float: right;
-   
-}
-Link{
-    text-decoration: none;
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
 }
 
+ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+ul li:not(:last-child) {
+  border-right: 1px solid black;
+}
+ 
+ ul li a:hover,.link{
+  background-color: #448ee4;
+  color: white;
+  margin: 1px;
+ }
+ @media screen and (max-width: 950px){
+  .non-mobile-links{
+    display: none;
+  }
+ }

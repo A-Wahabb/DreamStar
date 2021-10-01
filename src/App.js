@@ -1,13 +1,12 @@
 import React from 'react'
 import './App.css'
-import {BrowserRouter ,Link, Route, Switch } from 'react-router-dom'
+import {BrowserRouter ,Link, NavLink, Route, Switch } from 'react-router-dom'
 import Home from "./components/Home";
 import About from "./components/About";
 import WebDevelopment from './components/WebDevelopmet';
 import AppDevelopment from './components/AppDevelopment';
 import ContactUs from './components/ContactUs';
-// import AppLogo from './components/ParticalScreen/Logo';
-
+ import "antd/dist/antd.css";
 //branche 
 const App = () => {
     return (
@@ -15,30 +14,37 @@ const App = () => {
       <div> 
            
         <div className='Nav-part'>
-         
-         <div className='links'>
+         <div className='logo'>
+         <img src={process.env.PUBLIC_URL+'\\dsclogo.png'} title='DreamStarCoder'  height={150} width={124} />
+         </div>
+         <div className='non-mobile-links'>
          <ul>
           <li>
-            <Link to="/"  style={{ textDecoration: 'none' }}>Home</Link>
+            <NavLink exact to="/"  activeClassName='link' >Home</NavLink>
           </li>
           <li>
-            <Link to="/about" style={{ textDecoration: 'none' }}>About Us</Link>
+            <NavLink to="/about" activeClassName='link' >About Us</NavLink>
           </li>
           <li>
-            <Link to="/app-development" style={{ textDecoration: 'none' }}>App Development</Link>
+            <NavLink to="/app-development" activeClassName='link' >App Development</NavLink>
           </li>
           <li>
-          <Link to="/web-development" style={{ textDecoration: 'none' }}>Web Development</Link>
+          <NavLink to="/web-development" activeClassName='link' >Web Development</NavLink>
           </li>
           <li>
-            <Link to="/contact-us" style={{ textDecoration: 'none' }}>Contact Us</Link>
+            <NavLink to="/contact-us" activeClassName='link' >Contact Us</NavLink>
           </li>
 
         </ul>
 
          </div>
+        
+
         </div>   
+<<<<<<< HEAD
        
+=======
+>>>>>>> 550304e82b0439d4d4f952f1813090e49964c242
        <div className='body'>
        <Switch>
           <Route exact path="/">
