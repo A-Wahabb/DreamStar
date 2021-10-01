@@ -1,9 +1,8 @@
 import React from "react";
 import './Home.css';
 
-import React from "react"
-import { Carousel } from 'antd'
-import './home.css'
+
+
 
 const Home=()=>{
     return(
