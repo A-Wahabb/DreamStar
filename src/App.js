@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import {BrowserRouter ,Link, Route, Switch } from 'react-router-dom'
+import {BrowserRouter ,Link, NavLink, Route, Switch } from 'react-router-dom'
 import Home from "./components/Home";
 import About from "./components/About";
 import WebDevelopment from './components/WebDevelopmet';
@@ -17,22 +17,22 @@ const App = () => {
          <div className='logo'>
          <img src={process.env.PUBLIC_URL+'\\dsclogo.png'} title='DreamStarCoder'  height={150} width={124} />
          </div>
-         <div className='links'>
+         <div className='non-mobile-links'>
          <ul>
           <li>
-            <Link to="/" className='link' >Home</Link>
+            <NavLink exact to="/"  activeClassName='link' >Home</NavLink>
           </li>
           <li>
-            <Link to="/about" className='link' >About Us</Link>
+            <NavLink to="/about" activeClassName='link' >About Us</NavLink>
           </li>
           <li>
-            <Link to="/app-development" className='link' >App Development</Link>
+            <NavLink to="/app-development" activeClassName='link' >App Development</NavLink>
           </li>
           <li>
-          <Link to="/web-development" className='link' >Web Development</Link>
+          <NavLink to="/web-development" activeClassName='link' >Web Development</NavLink>
           </li>
           <li>
-            <Link to="/contact-us" className='link' >Contact Us</Link>
+            <NavLink to="/contact-us" activeClassName='link' >Contact Us</NavLink>
           </li>
 
         </ul>

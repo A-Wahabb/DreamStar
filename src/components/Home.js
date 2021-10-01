@@ -5,7 +5,6 @@ import './home.css'
 const Home=()=>{
     return(
         <div className='home'>
-           
            <div className='slider'>
            <Carousel style={{width:'100%'}}  >
            <div>
