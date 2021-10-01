@@ -1,16 +1,16 @@
 import React from "react";
-import './Home.css';
+import './home.css';
 
-
+import { Carousel } from 'antd'
 
 
 const Home=()=>{
     return(
         <div className='home'>
-           <h1>home</h1>
+           
            
            <div className='slider'>
-           <Carousel style={{width:'100%'}}  >
+           <Carousel autoplay style={{width:'100%'}}  >
            <div>
            <img alt='Not Found' className='contentStyle' src={process.env.PUBLIC_URL+'/slideone.jpg'}/>
           </div>    
