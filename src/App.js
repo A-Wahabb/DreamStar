@@ -7,7 +7,7 @@ import WebDevelopment from './components/WebDevelopmet';
 import AppDevelopment from './components/AppDevelopment';
 import ContactUs from './components/ContactUs';
  import dsclogo from './dsclogo.png';
-
+ import "antd/dist/antd.css";
 //branche 
 const App = () => {
     return (
