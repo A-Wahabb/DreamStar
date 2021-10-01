@@ -6,7 +6,7 @@
   display: inline-block;
   width: 150px;
   height: 124px;
-  margin: .5% 10px 10px 4%;
+  margin: 0px 10px 10px 4%;
   padding: .1%;
 }
 .Nav-part{
@@ -48,8 +48,10 @@ ul li{
   size: 20px;
   width: 130px;
   height: 60px;
+  font-weight: bold;
   display: inline-block;
  }
- .links .link:active{
-   background-color: tomato;
+ .linl:active{
+   color: blueviolet;
  }
+ 
