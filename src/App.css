@@ -1,27 +1,36 @@
+.parent{
+  margin: 0px;
+  padding: 0px;
+}
+.logo{
+  display: inline-block;
+  width: 150px;
+  height: 124px;
+  margin: .5% 10px 10px 4%;
+  padding: .1%;
+}
 .Nav-part{
     display: block;
-    height: 84px;
+    height: 160px;
     align-content: space-between;
-    padding-left: 10%;
-    border-bottom: 1px solid rgb(107, 121, 184);
     margin: 0px;
 }
 
 .links{
   position: relative;
   float:right;
-  right: 10px;
-  top: 30%;
-}
-
-Link{
-    text-decoration: none;
+  right: 5%;
+  top: 50%;
 }
 
 ul li{
     display:inline-block; 
     padding:0 7px; 
     position:relative;
+    font-size: 14px;
+    width: 140px;
+    text-align: center;
+    justify-content: center;
   }
   ul li:not(:last-child)::before{
     content:""; 
@@ -33,3 +42,14 @@ ul li{
     height:100%;
   }
 
+ .link:hover{
+  background-color: #448ee4;
+  color: white;
+  size: 20px;
+  width: 130px;
+  height: 60px;
+  display: inline-block;
+ }
+ .links .link:active{
+   background-color: tomato;
+ }

@@ -6,7 +6,6 @@ import About from "./components/About";
 import WebDevelopment from './components/WebDevelopmet';
 import AppDevelopment from './components/AppDevelopment';
 import ContactUs from './components/ContactUs';
- import dsclogo from './dsclogo.png';
  import "antd/dist/antd.css";
 //branche 
 const App = () => {
@@ -15,23 +14,25 @@ const App = () => {
       <div> 
            
         <div className='Nav-part'>
-         <img src={dsclogo} title='DreamStarCoder'  height={80} width={90} />
+         <div className='logo'>
+         <img src={process.env.PUBLIC_URL+'\\dsclogo.png'} title='DreamStarCoder'  height={150} width={124} />
+         </div>
          <div className='links'>
          <ul>
           <li>
-            <Link to="/"  style={{ textDecoration: 'none' }}>Home</Link>
+            <Link to="/" className='link' >Home</Link>
           </li>
           <li>
-            <Link to="/about" style={{ textDecoration: 'none' }}>About Us</Link>
+            <Link to="/about" className='link' >About Us</Link>
           </li>
           <li>
-            <Link to="/app-development" style={{ textDecoration: 'none' }}>App Development</Link>
+            <Link to="/app-development" className='link' >App Development</Link>
           </li>
           <li>
-          <Link to="/web-development" style={{ textDecoration: 'none' }}>Web Development</Link>
+          <Link to="/web-development" className='link' >Web Development</Link>
           </li>
           <li>
-            <Link to="/contact-us" style={{ textDecoration: 'none' }}>Contact Us</Link>
+            <Link to="/contact-us" className='link' >Contact Us</Link>
           </li>
 
         </ul>
