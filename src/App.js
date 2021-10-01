@@ -41,10 +41,6 @@ const App = () => {
         
 
         </div>   
-<<<<<<< HEAD
-       
-=======
->>>>>>> 550304e82b0439d4d4f952f1813090e49964c242
        <div className='body'>
        <Switch>
           <Route exact path="/">

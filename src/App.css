@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-
-.Nav-part{
-    width: 100%;
-    height: 60px;
-   
-=======
 .parent{
   margin: 0px;
   padding: 0px;
@@ -20,7 +13,6 @@
     display: block;
     height: 160px;
     margin: 0px;
->>>>>>> 550304e82b0439d4d4f952f1813090e49964c242
 }
 
 .non-mobile-links{
