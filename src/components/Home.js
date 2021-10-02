@@ -25,6 +25,19 @@ const Home=()=>{
           </div>
   </Carousel>
            </div>
+           <br/>
+           <div className='home_content'>
+                        <h2 className='firstheading'>
+                            web development
+                        </h2>
+                        <p>
+                            we specilise in devloping beautiful & engaging website with a variety 
+                            of teacnolgy stacks.our aim is to create solutions that are robust and 
+                            reliable, and we are always using the most up-to-date teacnolgy and 
+                                                efficient ui/ux.
+
+                        </p>
+           </div>
         </div>
     )
 }
