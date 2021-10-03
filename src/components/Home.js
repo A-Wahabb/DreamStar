@@ -8,7 +8,6 @@ const Home=()=>{
     return(
         <div className='home'>
            
-           
            <div className='slider'>
            <Carousel autoplay style={{width:'100%'}}  >
            <div>
