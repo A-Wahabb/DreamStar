@@ -8,10 +8,11 @@
   height: 124px;
   margin: 0px 10px 10px 4%;
   padding: .1%;
+  line-height: 120px;
 }
 .Nav-part{
     display: block;
-    height: 160px;
+    height: 130px;
     margin: 0px;
 }
 
@@ -33,10 +34,17 @@ ul li a{
   padding: 10px 20px;
   font-weight: bold;
 }
-ul li:not(:last-child) {
+ ul li:not(:last-child) {
   border-right: 1px solid black;
+  
+} 
+.slick-dots li button {
+  background: black !important;
 }
- 
+ .slick-dots li.slick-active button {
+    background: #1890ff !important;
+  }
+
  ul li a:hover,.link{
   background-color: #448ee4;
   color: white;

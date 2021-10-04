@@ -1,6 +1,6 @@
 .contentStyle{
     width:100%;
-    height: 400px;
+    height: 600px;
     color: #fff;
     line-height: 160;  
     text-align: center; 
@@ -8,18 +8,168 @@
 }
 
 .home_content{
-    text-align: center;
+    text-align: justify;
     padding-left: 83px;
     padding-right: 83px;
-    letter-spacing: 03px;
+    text-justify: auto;
+    letter-spacing: 3px;
     font-size: 24px;
+    line-height: 40px;
     font-family: arial;
     text-transform: capitalize;
     justify-content: center;
 }
 .firstheading{
     color: blue!important;
-    letter-spacing: 0.5rem!important;
-    text-transform: uppercase;
+    letter-spacing: 3px!important;
+    text-transform: capitalize;
     font-weight: bolder;
+    text-align: center;
+    font-size: 64px;
+    font-family: arial;    
+}
+.secondheading{
+    color: blue!important;
+    letter-spacing: 3px!important;
+    text-transform: capitalize;
+    font-weight: bolder;
+    text-align: center;
+    font-family: arial;
+    font-size: 48px;
+}
+.hmainheading{
+    letter-spacing: 3px!important;
+    text-transform: capitalize;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 36px;
+    font-family: arial;
+
+}
+.readmorediv{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding-top: 30px; 
+}
+.readmorebtn{
+    background-color: #448ee4;
+    color: #fff;
+    cursor: pointer;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+    border: none;
+    font-size: 24px;
+    width: 300px;
+    height: 60px;
+}
+
+.webmobAppdlp{
+    padding-top: 50px;
+    padding-left: 83px;
+    padding-right: 83px;
+}
+.webmobAppdlp_heading{
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 36px;
+    font-family: arial;
+    padding-top: 50px;
+}
+.webmobAppdlp_peragrf{
+    padding-top: 50px;
+    letter-spacing: 3px;
+    font-size: 24px;
+    font-family: arial;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.rdmdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding-top: 30px; 
+}
+.rdmbtn{
+    background-color: #448ee4;
+    color: #fff;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+    border: none;
+    font-size: 24px;
+    width: 300px;
+    height: 60px;
+    cursor: pointer;
+}
+
+                 /* card style */
+.cardsdive{
+    padding-left: 83px;
+    padding-right: 83px;
+    display: flex;
+    padding-top: 50px;
+}
+
+.cardheading{
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.cardperagraf{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+.cardone{
+    width: 360px;
+    height: 580px;
+    text-align: center; 
+}
+.cardimage{
+    width: 300px;
+    height: 250px;
+}
+.cardtwodiv{
+    padding-left: 60px;
+}
+.cardtwo{
+    width: 360px;
+    height: 580px;
+    text-align: center; 
+    padding-right: 60px;
+}
+.cardimagediv{
+    padding-top: 55px;
+}
+   
+.cardthreediv{
+    padding-left: 60px;
+}
+.cardthree{
+    width: 360px;
+    height: 580px;
+    text-align: center; 
+}
+.cardimagedivthree{
+    padding-top: 27px;
+}
+                                  /* footer */
+.footer_main{
+    padding-top: 25px;
+    padding-right: 83px;
+    padding-left: 83px;
+    display: flex;
+}
+.our_company{
+         width: 400px;
+         text-align: justify;
+}
+.follow_us{
+    width: 400px;
+    text-align: justify;
+}
+.contact_us{
+    width: 400px;
+    text-align: justify;
 }
