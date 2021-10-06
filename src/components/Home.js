@@ -2,6 +2,7 @@ import React from "react";
 import './home.css';
 
 import { Carousel,Card } from 'antd'
+import Footer from "./Footer";
 
 const Home=()=>{
     return(
@@ -113,25 +114,9 @@ const Home=()=>{
                         </div>       
                           </div>
                           <hr/>
-                          {/* footer */}
-                          <div className='footer_main'>
-                            <div className='our_company'>
-                                
-                                <h2>Our Company</h2>
-                                <h3>Home</h3>
-                                <h3>About Us</h3>
-                                <h3>App Development</h3>
-                                <h3>Web Development</h3>
-                                <h3> Contact Us</h3>
-                               
-                            </div>
-                            <div className='follow_us'>
-                               <h2> Follow Us</h2>
-                            </div>
-                            <div className='contact_us'>
-                                <h2>Contact Us</h2>
-                            </div>
-                          </div>
+                          
+                          <Footer/>
+                          
         </div>
     )
 }

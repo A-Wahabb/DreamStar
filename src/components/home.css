@@ -154,22 +154,5 @@
 .cardimagedivthree{
     padding-top: 27px;
 }
-                                  /* footer */
-.footer_main{
-    padding-top: 25px;
-    padding-right: 83px;
-    padding-left: 83px;
-    display: flex;
-}
-.our_company{
-         width: 400px;
-         text-align: justify;
-}
-.follow_us{
-    width: 400px;
-    text-align: justify;
-}
-.contact_us{
-    width: 400px;
-    text-align: justify;
-}
+                                 
+
