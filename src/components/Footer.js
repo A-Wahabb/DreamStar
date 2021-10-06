@@ -17,9 +17,10 @@ const Footer = () => {
                                <h2> 
                                Follow Us
                                </h2>
-                               <img src={process.env.PUBLIC_URL+'\\'} title='DreamStarCoder'  height={48} width={48} />
-                               <img src={process.env.PUBLIC_URL+'\\'} title='DreamStarCoder'  height={48} width={48} />
-                               <img src={process.env.PUBLIC_URL+'\\'} title='DreamStarCoder'  height={48} width={48} />
+                               <img src={process.env.PUBLIC_URL+'\\facebok.png'} title='facebook'  height={48} width={48} />
+                               <img src={process.env.PUBLIC_URL+'\\TWITER.png'} title='twiter'  height={48} width={48} />
+                               <img src={process.env.PUBLIC_URL+'\\linkdin.png'} title='linkdin'  height={48} width={48} />
+                               <img src={process.env.PUBLIC_URL+'\\watsapp.png'} title='watsapp'  height={48} width={48} />
 
                                     
                             </div>
