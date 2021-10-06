@@ -12,16 +12,16 @@ const Home=()=>{
            <div className='slider'>
            <Carousel autoplay style={{width:'100%'}}  >
            <div>
-           <img alt='Not Found' className='contentStyle' src={process.env.PUBLIC_URL+'/slideone.jpg'}/>
+           <img alt='DreamStarCoder' className='contentStyle' src={process.env.PUBLIC_URL+'/slideone.jpg'}/>
           </div>    
            <div>
-           <img alt='Not Found' className='contentStyle'src={process.env.PUBLIC_URL+'/ui.jpg'}/>
+           <img alt='UI&UX' className='contentStyle'src={process.env.PUBLIC_URL+'/ui.jpg'}/>
           </div>
           <div>
-           <img alt='Not Found' className='contentStyle'src={process.env.PUBLIC_URL+'/app.jpg'}/>
+           <img alt='AppDebelopment' className='contentStyle'src={process.env.PUBLIC_URL+'/app.jpg'}/>
           </div>
           <div>
-           <img alt='Not Found' className='contentStyle'src={process.env.PUBLIC_URL+'/web.jpg'}/>
+           <img alt='WebDebelopment' className='contentStyle'src={process.env.PUBLIC_URL+'/web.jpg'}/>
           </div>
   </Carousel>
            </div>
@@ -76,7 +76,7 @@ const Home=()=>{
                               business online.
                                </p>
                                <div>
-                               <img alt='Not Found' className='cardimage'src={process.env.PUBLIC_URL+'/web.jpg'}/>
+                               <img alt='WebDebelopment' className='cardimage'src={process.env.PUBLIC_URL+'/web.jpg'}/>
                                </div>
                                <div className='rdmdiv'>
                         <button className='rdmbtn'>read more</button></div>
@@ -91,7 +91,7 @@ const Home=()=>{
                               products and service.
                                </p>
                                <div className='cardimagediv'>
-                               <img alt='Not Found' className='cardimage'src={process.env.PUBLIC_URL+'/web.jpg'}/>
+                               <img alt='WebDebelopment' className='cardimage'src={process.env.PUBLIC_URL+'/web.jpg'}/>
                                </div>
                                <div className='rdmdiv'>
                         <button className='rdmbtn'>read more</button></div>
@@ -106,7 +106,7 @@ const Home=()=>{
                                   a baby smile. The computer is an extension of mind.
                                </p>
                                <div className='cardimagedivthree'>
-                               <img alt='Not Found' className='cardimage'src={process.env.PUBLIC_URL+'/web.jpg'}/>
+                               <img alt='WebDebelopment' className='cardimage'src={process.env.PUBLIC_URL+'/web.jpg'}/>
                                </div>
                                <div className='rdmdiv'>
                         <button className='rdmbtn'>read more</button></div>
