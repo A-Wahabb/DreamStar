@@ -5,8 +5,8 @@ const Footer = () => {
     return (
         <div>
             <div className='footer_main'>
-                            <div>
-                                <h2 className='our_company'>Our Company</h2>
+                            <div className='our_company'>
+                                <h2>Our Company</h2>
                                 <h3>Home</h3>
                                 <h3>About Us</h3>
                                 <h3>App Development</h3>
@@ -17,24 +17,21 @@ const Footer = () => {
                                <h2> 
                                Follow Us
                                </h2>
-                               <p>follow us</p>
-                               <p>follow us</p>
-                               <p>follow us</p>
-                               <p>follow us</p>
+                               <img src={process.env.PUBLIC_URL+'\\'} title='DreamStarCoder'  height={48} width={48} />
+                               <img src={process.env.PUBLIC_URL+'\\'} title='DreamStarCoder'  height={48} width={48} />
+                               <img src={process.env.PUBLIC_URL+'\\'} title='DreamStarCoder'  height={48} width={48} />
+
                                     
                             </div>
-                            <div>
-                                <h2  className='contact_us'>
+                            <div  className='contact_us'>
+                                <h2>
                                  Contact US 
                                     </h2>
+
                                     <div className='logo'>
          <img src={process.env.PUBLIC_URL+'\\dsclogo.png'} title='DreamStarCoder'  height={110} width={100} />
          </div>
            </div>
-             
-             <br/>
-        
-           
         </div>
          <div className='copyright_note'>
                <div> 
