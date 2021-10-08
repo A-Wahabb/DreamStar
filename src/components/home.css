@@ -1,6 +1,11 @@
 .contentStyle{
     width:100%;
-    height: 500px;
+    height: 700px;
     color: #fff;
-    background: #364d79
+    background: #364d79; 
+}
+@media screen and (max-width:900px){
+    .contentStyle{
+        height: 300px;
+    }
 }

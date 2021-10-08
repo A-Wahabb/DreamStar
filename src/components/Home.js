@@ -9,7 +9,7 @@ const Home=()=>{
         <div className='home'>
            
            <div className='slider'>
-           <Carousel autoplay style={{width:'100%'}}  >
+           <Carousel  style={{width:'100%'}}  >
            <div>
            <img alt='Not Found' className='contentStyle' src={process.env.PUBLIC_URL+'/slideone.jpg'}/>
           </div>    
