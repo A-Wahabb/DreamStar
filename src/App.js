@@ -15,7 +15,7 @@ const App = () => {
            
         <div className='Nav-part'>
          <div className='logo'>
-         <img src={process.env.PUBLIC_URL+'\\dsclogo.png'} title='DreamStarCoder'  height={150} width={124} />
+         <img src={process.env.PUBLIC_URL+'\\dsclogo.png'} title='DreamStarCoder'  height={110} width={100} />
          </div>
          <div className='non-mobile-links'>
          <ul>
