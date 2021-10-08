@@ -1,8 +1,7 @@
 import React from "react";
 import './home.css';
-
 import { Carousel,Card } from 'antd'
-import Footer from "./Footer";
+
 
 const Home=()=>{
     return(
@@ -112,9 +111,7 @@ const Home=()=>{
                         </Card> 
                         </div>       
                           </div>
-                          <hr/>
-                          
-                          <Footer/>
+                         
                           
         </div>
     )

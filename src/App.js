@@ -6,6 +6,7 @@ import About from "./components/About";
 import WebDevelopment from './components/WebDevelopmet';
 import AppDevelopment from './components/AppDevelopment';
 import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
  import "antd/dist/antd.css";
 //branche 
 const App = () => {
@@ -23,23 +24,20 @@ const App = () => {
             <NavLink exact to="/"  activeClassName='link' >Home</NavLink>
           </li>
           <li>
-            <NavLink to="/about" activeClassName='link' >About Us</NavLink>
-          </li>
-          <li>
             <NavLink to="/app-development" activeClassName='link' >App Development</NavLink>
           </li>
           <li>
           <NavLink to="/web-development" activeClassName='link' >Web Development</NavLink>
           </li>
           <li>
+            <NavLink to="/about" activeClassName='link' >About Us</NavLink>
+          </li>
+          <li>
             <NavLink to="/contact-us" activeClassName='link' >Contact Us</NavLink>
           </li>
 
         </ul>
-
          </div>
-        
-
         </div>   
        <div className='body'>
        <Switch>
@@ -59,7 +57,11 @@ const App = () => {
               <ContactUs/>
           </Route>
         </Switch>
+
        </div>
+       <hr/>
+                          
+        <Footer/>
       </div>
         </BrowserRouter>
         
