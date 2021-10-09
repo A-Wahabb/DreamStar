@@ -1,0 +1,37 @@
+.about_content{
+    padding-left: 83px;
+    padding-right: 83px;
+    text-transform: capitalize;
+    padding-top: 50px;
+}
+.headingone{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.headings{
+    font-size: 30px;
+}
+.about_paragraf{
+    font-size: 20px;
+    font-family: arial;
+    text-align: justify;
+}
+.whatwedo{
+   font-size: 40px;
+    
+}
+.whatwedoperagraf{
+    font-size: 20px;
+    font-family: arial;
+    text-align: justify;
+}
+.vision_heading{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.vision_peragraf{
+    font-size: 20px;
+    font-family: arial;
+    text-align: justify;
+    padding-bottom: 30px;
+}
