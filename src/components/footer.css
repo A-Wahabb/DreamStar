@@ -20,8 +20,11 @@
 }
 
 .socialicon{
-    background-color: blue;
+    display: flex;
     
+}
+.socialicondiv{
+    padding-right: 10px;
 }
 .copyright_note{
     width: 100%;
