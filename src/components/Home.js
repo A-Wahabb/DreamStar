@@ -1,15 +1,14 @@
 import React from "react";
 import './home.css';
-
 import { Carousel,Card } from 'antd'
-import Footer from "./Footer";
+
 
 const Home=()=>{
     return(
         <div className='home'>
            
            <div className='slider'>
-           <Carousel autoplay style={{width:'100%'}}  >
+           <Carousel  style={{width:'100%'}}  >
            <div>
            <img alt='DreamStarCoder' className='contentStyle' src={process.env.PUBLIC_URL+'/slideone.jpg'}/>
           </div>    
@@ -112,9 +111,7 @@ const Home=()=>{
                         </Card> 
                         </div>       
                           </div>
-                          <hr/>
-                          
-                          <Footer/>
+                         
                           
         </div>
     )
