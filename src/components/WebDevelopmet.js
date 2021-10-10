@@ -3,7 +3,9 @@ import React from "react";
 const WebDevelopment=()=>{
     return(
         <div>
-            WebDevelopment
+            <div>
+                <img alt='WebDevelopment' className='contentStyle' src={process.env.PUBLIC_URL+'/web.jpg'}/>
+            </div>
         </div>
     )
 }
