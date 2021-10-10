@@ -1,13 +1,16 @@
-.AppDevelopment_heading{
-    padding-top: 30px;
-    color: #448ee4;
-    text-align: center;
-}
-.AppDevelopment_peragraf{
-    text-align: center;
+.AppDevelopment_content{
     padding-right: 83px;
     padding-left: 83px;
+}
+.AppDevelopment_heading{
+    padding-top: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #448ee4;
+}
+.AppDevelopment_peragraf{
+    text-align: justify;
     font-size: 24px;
     text-transform: capitalize;
-    letter-spacing: 3px;
+    letter-spacing: 0.5px;
 }
