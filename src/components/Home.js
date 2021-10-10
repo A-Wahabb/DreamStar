@@ -104,7 +104,7 @@ const Home=()=>{
                                   a baby smile. The computer is an extension of mind.
                                </p>
                                <div className='cardimagedivthree'>
-                               <img alt='WebDebelopment' className='cardimage'src={process.env.PUBLIC_URL+'/web.jpg'}/>
+                               <img alt='WebDebelopment' className='cardimage'src={process.env.PUBLIC_URL+'/.jpg'}/>
                                </div>
                                <div className='rdmdiv'>
                         <button className='rdmbtn'>read more</button></div>
