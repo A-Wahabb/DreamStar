@@ -33,6 +33,9 @@ const Footer = () => {
          </div>
          <div>
             <p> DreamStarCoder (pvt) limited</p>
+            <div>
+                <img alt='g-mail' src={process.env.PUBLIC_URL+'/'} />
+            </div>
             <p>dream.starcoder@gmail.com</p>
             <p>+923130908533</p>
          </div>
