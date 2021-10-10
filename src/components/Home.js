@@ -16,10 +16,10 @@ const Home=()=>{
            <img alt='UI&UX' className='contentStyle'src={process.env.PUBLIC_URL+'/ui.jpg'}/>
           </div>
           <div>
-           <img alt='AppDebelopment' className='contentStyle'src={process.env.PUBLIC_URL+'/app.jpg'}/>
+           <img alt='AppDevelopment' className='contentStyle'src={process.env.PUBLIC_URL+'/app.jpg'}/>
           </div>
           <div>
-           <img alt='WebDebelopment' className='contentStyle'src={process.env.PUBLIC_URL+'/web.jpg'}/>
+           <img alt='WebDevelopment' className='contentStyle'src={process.env.PUBLIC_URL+'/web.jpg'}/>
           </div>
   </Carousel>
            </div>

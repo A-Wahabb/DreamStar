@@ -42,8 +42,15 @@ const AppDevelopment=()=>{
           </div>
           <div>
               <h1 className='AppDevelopment_heading'>technology we use</h1>
+              <div className='technology_icon'>
               <div>
-                  <img alt='Andriod'  src={process.env.PUBLIC_URL+'/andriondicon.png'} width='100px' height='100px'/>
+                <img alt='Andriod' className='icons' src={process.env.PUBLIC_URL+'/andriodicon.png'}/>
+                    <figcaption className='Andriodcaption'>Andriod</figcaption>
+              </div>
+              <div>
+                <img alt='Andriod' className='icons' src={process.env.PUBLIC_URL+'/andriodicon.png'}/>
+                    <figcaption className='Andriodcaption'>Andriod</figcaption>
+              </div>
               </div>
           </div>
          </div>
