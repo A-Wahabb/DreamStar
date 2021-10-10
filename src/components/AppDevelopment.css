@@ -15,21 +15,29 @@
     letter-spacing: 0.5px;
 }
 .technology_icon{
-    text-align: center;
     display: flex;
-    
+    justify-content: center;
 }
 .icons{
     width: 200px;
     height: 200px;
+   
 }
 .Andriodcaption{
     background-color: lawngreen;
-    width: 200px;
-    height: 40px;
     font-size: 24px;
     text-align: center;
     font-weight: bolder;
-    
+}
+.Reactcaption{
+    background-color: #448ee4;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+}
+.iconone{
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-top: 20px;
 }
 
