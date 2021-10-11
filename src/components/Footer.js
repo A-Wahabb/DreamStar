@@ -18,25 +18,10 @@ const Footer = () => {
                                Follow Us
                                </h2>
                                <div className='socialicon'>
-<<<<<<< HEAD
-                             <div className='socialicondiv'>  
-                             <img alt='Facebook' src={process.env.PUBLIC_URL+'\\facebok.png'} title='facebook' className='socialicon' />
-                             </div>
-                              <div className='socialicondiv'>
-                                   <img alt='Twitwer' src={process.env.PUBLIC_URL+'\\twitw.png'} title='twitwer' className='socialicon'  />
-                                   </div>
-                               <div className='socialicondiv'>
-                                   <img alt='Linkdin' src={process.env.PUBLIC_URL+'\\linkdin.png'} title='linkdin' className='socialicon'  />
-                                   </div>
-                               <div className='socialicondiv'>
-                                   <img alt='Whatsapp' src={process.env.PUBLIC_URL+'\\watsapp.png'} title='wathsapp' className='socialicon' />
-                                   </div>
-=======
                                <div className='socialicondiv' > <img alt='Facebook' onClick={()=>{}} src={process.env.PUBLIC_URL+'\\facebok.png'} title='facebook' className='socialicon'  height={48} width={48} /></div>
                                <div className='socialicondiv'> <img alt='Twitwer' src={process.env.PUBLIC_URL+'\\twitw.png'} title='twitwer' className='socialicon'  height={48} width={48} /></div>
                                <div className='socialicondiv'><img alt='Linkdin' src={process.env.PUBLIC_URL+'\\linkdin.png'} title='linkdin' className='socialicon' height={48} width={48} /></div>
                                <div className='socialicondiv'><img alt='Whatsapp' src={process.env.PUBLIC_URL+'\\watsapp.png'} title='wathsapp' className='socialicon' height={48} width={48} /></div>
->>>>>>> a20b38392234fc7641195a7ddec7c1faebce8af2
                                   </div>       
                             </div>
                             <div  className='contact_us'>
