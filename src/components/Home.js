@@ -89,7 +89,7 @@ const Home=()=>{
                               products and service.
                                </p>
                                <div className='cardimagediv'>
-                               <img alt='WebDebelopment' className='cardimage'src={process.env.PUBLIC_URL+'/web.jpg'}/>
+                               <img alt='WebDebelopment' className='cardimage'src={process.env.PUBLIC_URL+'/sage_icon.png'}/> 
                                </div>
                                <div className='rdmdiv'>
                         <button className='rdmbtn'>read more</button></div>

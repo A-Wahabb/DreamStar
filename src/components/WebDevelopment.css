@@ -1,0 +1,21 @@
+.WebDevelopment_content{
+    padding-right: 83px;
+    padding-left: 83px;
+}
+.web_content{
+    padding-top: 50px;
+}
+.web_heading {
+    color: #448ee4;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 3px;
+}
+.web_paragraf{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: arial;
+    text-align: center;
+    letter-spacing: 5px;
+}
