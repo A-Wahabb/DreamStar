@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import {BrowserRouter ,Link, NavLink, Route, Switch } from 'react-router-dom'
+import {BrowserRouter ,NavLink, Route, Switch } from 'react-router-dom'
 import Home from "./components/Home";
 import About from "./components/About";
 import WebDevelopment from './components/WebDevelopmet';
@@ -8,12 +8,13 @@ import AppDevelopment from './components/AppDevelopment';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
  import "antd/dist/antd.css";
+import ScrollToTop from "./scroll";
 //branche 
 const App = () => {
     return (
     <BrowserRouter>
       <div> 
-           
+       <ScrollToTop />
         <div className='Nav-part'>
          <div className='logo'>
          <img src={process.env.PUBLIC_URL+'\\dsclogo.png'} title='DreamStarCoder'  height={110} width={100} />

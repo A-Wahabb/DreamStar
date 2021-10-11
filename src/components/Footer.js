@@ -1,23 +1,24 @@
 import React from 'react'
 import './footer.css'
-
+import {NavLink} from 'react-router-dom'
 const Footer = () => {
     return (
         <div>
             <div className='footer_main'>
                             <div className='our_company'>
-                                <h2>Our Company</h2>
-                                <h3>Home</h3>
-                                <h3>About Us</h3>
-                                <h3>App Development</h3>
-                                <h3>Web Development</h3>
-                                <h3> Contact Us</h3>
+                                 <h2>Our Company</h2>
+                                <NavLink to='/' className='link'><h3>Home</h3></NavLink>
+                                <NavLink to='/about' className='link'><h3>About Us</h3></NavLink>
+                                <NavLink to='/app-development' className='link'> <h3>App Development</h3></NavLink>
+                                <NavLink to='/web-development'className='link'><h3>Web Development</h3> </NavLink>
+                                <NavLink to='/contact-us'className='link'><h3> Contact Us</h3></NavLink>
                             </div>
                             <div className='follow_us'>
                                <h2> 
                                Follow Us
                                </h2>
                                <div className='socialicon'>
+<<<<<<< HEAD
                              <div className='socialicondiv'>  
                              <img alt='Facebook' src={process.env.PUBLIC_URL+'\\facebok.png'} title='facebook' className='socialicon' />
                              </div>
@@ -30,6 +31,12 @@ const Footer = () => {
                                <div className='socialicondiv'>
                                    <img alt='Whatsapp' src={process.env.PUBLIC_URL+'\\watsapp.png'} title='wathsapp' className='socialicon' />
                                    </div>
+=======
+                               <div className='socialicondiv' > <img alt='Facebook' onClick={()=>{}} src={process.env.PUBLIC_URL+'\\facebok.png'} title='facebook' className='socialicon'  height={48} width={48} /></div>
+                               <div className='socialicondiv'> <img alt='Twitwer' src={process.env.PUBLIC_URL+'\\twitw.png'} title='twitwer' className='socialicon'  height={48} width={48} /></div>
+                               <div className='socialicondiv'><img alt='Linkdin' src={process.env.PUBLIC_URL+'\\linkdin.png'} title='linkdin' className='socialicon' height={48} width={48} /></div>
+                               <div className='socialicondiv'><img alt='Whatsapp' src={process.env.PUBLIC_URL+'\\watsapp.png'} title='wathsapp' className='socialicon' height={48} width={48} /></div>
+>>>>>>> a20b38392234fc7641195a7ddec7c1faebce8af2
                                   </div>       
                             </div>
                             <div  className='contact_us'>

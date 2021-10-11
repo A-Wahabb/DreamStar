@@ -9,8 +9,18 @@
 }
 .our_company{
         width: 100%;
-        
+        display: inline-block;
 }
+.our_company .link h3{
+   width: 50%;
+}
+.our_company h3:hover,a{
+    width: 50%;
+    background-color: #448ee4;
+    color: white;
+    padding-left: 3px;
+}
+
 .follow_us{
     width: 100%;  
 }
