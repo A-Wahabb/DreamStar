@@ -37,11 +37,25 @@ const WebDevelopment=()=>{
                                      all fields and follow good form design principles.
                                 </p>      
                  </div>
-                <div className='web_content'>
+                
                     <h1 className='web_heading'>
                         technology we use
                     </h1>
+                    <div className='web_tech_icon'>
+                    <div>
+                   <img alt='' className='Mongo_db' src={process.env.PUBLIC_URL+'/'} />
                 </div>
+                <div>
+                    2
+                </div>
+                <div>
+                    3
+                </div>
+                <div>
+                    4
+                </div>
+
+               </div>
 
             </div>
         </div>

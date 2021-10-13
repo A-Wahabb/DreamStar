@@ -40,7 +40,7 @@ const AppDevelopment=()=>{
                </p>
 
           </div>
-          <div>
+         
               <h1 className='AppDevelopment_heading'>technology we use</h1>
               <div className='technology_icon'>
               <div className='iconone'>
@@ -52,7 +52,7 @@ const AppDevelopment=()=>{
                     <figcaption className='Reactcaption'>React Native</figcaption>
               </div>
               </div>
-          </div>
+         
          </div>
         </div>
     )
