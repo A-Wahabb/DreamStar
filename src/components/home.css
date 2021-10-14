@@ -108,7 +108,7 @@
 }
 
                  /* card style */
-.cardsdive{
+.cardsdiv{
     padding-left: 83px;
     padding-right: 83px;
     display: flex;
@@ -157,4 +157,6 @@
 .cardimagedivthree{
     padding-top: 27px;
 }
+
+
                                  

@@ -42,17 +42,21 @@ const WebDevelopment=()=>{
                         technology we use
                     </h1>
                     <div className='web_tech_icon'>
-                    <div>
-                   <img alt='' className='Mongo_db' src={process.env.PUBLIC_URL+'/'} />
+                    <div className='mongo_icon'>
+                   <img alt='Mongo DB' className='Mongo_db' src={process.env.PUBLIC_URL+'/M.png'} />
+                    <figcaption className='Mongo_figerCaption'> mongo dB  </figcaption>
                 </div>
-                <div>
-                    2
+                <div className='express_icon' >
+                <img alt='Express Js' className='Express_js' src={process.env.PUBLIC_URL+'/E.png'} />
+                <figcaption className='Express_figerCaption'> express js </figcaption>
                 </div>
-                <div>
-                    3
+                <div  className='react_icon'>
+                <img alt='ReactJs' className='React_js' src={process.env.PUBLIC_URL+'/R.png'} />
+                <figcaption className='React_figerCaption'> reactjs</figcaption>
                 </div>
-                <div>
-                    4
+                <div  className='node_icon'>
+                <img alt='NodeJs' className='Node_js' src={process.env.PUBLIC_URL+'/N.png'} />
+                <figcaption className='Node_figerCaption'> node js </figcaption>
                 </div>
 
                </div>

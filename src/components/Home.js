@@ -8,7 +8,7 @@ const Home=()=>{
         <div className='home'>
            
            <div className='slider'>
-           <Carousel  style={{width:'100%'}}  >
+           <Carousel autoplay style={{width:'100%'}}  >
            <div>
            <img alt='DreamStarCoder' className='contentStyle' src={process.env.PUBLIC_URL+'/slideone.jpg'}/>
           </div>    
@@ -64,7 +64,7 @@ const Home=()=>{
            </div>
                                   {/* cards */}
                                   
-            <div className='cardsdive'>
+            <div className='cardsdiv'>
                 <div>
                                         {/* card_one */}
                      <Card className='cardone'>

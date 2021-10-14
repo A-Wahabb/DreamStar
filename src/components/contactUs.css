@@ -1,0 +1,50 @@
+.contact_content{
+    padding-right: 83px;
+    padding-left: 83px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+   
+}
+.contact_paragrf{
+    font-size: 20px;
+    font-family: arial;
+    text-transform: capitalize;
+}
+.contact_form{
+    padding-right: 83px;
+    padding-left: 83px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.name_input{
+    width: 500px;
+    border: 2px solid black;
+    height: 50px;
+    color: black;
+    font-size: 24px;
+    
+
+}
+.Massage_input{
+    width: 500px;
+    border: 2px solid black;
+    height: 150px;
+    color: black;
+    font-size: 24px;
+}
+.send_btn{
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: blue;
+    color: #fff;
+    border: 0px;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+}

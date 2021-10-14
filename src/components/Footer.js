@@ -42,9 +42,9 @@ const Footer = () => {
          </div>
            </div>
         </div>
-               <div> 
+               
                    <h3 className='copyright_note'>Copyright @ 2021 DreamStarCoder (pvt) limited</h3>
-                   </div>
+                   
         </div>
     )
 }
