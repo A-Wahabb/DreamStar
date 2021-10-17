@@ -37,8 +37,9 @@ const Footer = () => {
                 <img alt='g-mail' className='gmail_icon' src={process.env.PUBLIC_URL+'/email.png'} />
                  <p className='Eamil_address'>dream.starcoder@gmail.com</p>
             </div>
-           
-            <p>+923130908533</p>
+            <div className='mobile_div'>
+            <img alt='Mobile' className='mobile_icon' src={process.env.PUBLIC_URL+'/mobile.png'} />
+            <p>+923130908533</p></div>
          </div>
            </div>
         </div>

@@ -74,7 +74,7 @@ const Home=()=>{
                               business online.
                                </p>
                                <div>
-                               <img alt='WebDebelopment' className='cardimage'src={process.env.PUBLIC_URL+'/web.jpg'}/>
+                               <img alt='WebDebelopment' className='cardimage_one'src={process.env.PUBLIC_URL+'/web.jpg'}/>
                                </div>
                                <div className='rdmdiv'>
                         <button className='rdmbtn'>read more</button></div>
@@ -83,13 +83,13 @@ const Home=()=>{
                                                   {/* card_two */}
                             <div className='cardtwodiv'>
                          <Card className='cardtwo'>
-                         <h2 className='cardheading'>e commerece solution</h2>
+                         <h2 className='cardheading'>sage development</h2>
                           <p className='cardperagraf'>
-                              E-Commerce is a paramount to success of any organistion selling 
-                              products and service.
+                              if you need a specific sage amendment, wish to automate a business 
+                              process or simply wish to integrate to another
                                </p>
                                <div className='cardimagediv'>
-                               <img alt='WebDebelopment' className='cardimage'src={process.env.PUBLIC_URL+'/sage_icon.png'}/> 
+                               <img alt='WebDebelopment' className='cardimage_two'src={process.env.PUBLIC_URL+'/sage_icon.png'}/> 
                                </div>
                                <div className='rdmdiv'>
                         <button className='rdmbtn'>read more</button></div>
@@ -98,13 +98,13 @@ const Home=()=>{
                                                        {/* card_three */}
                           <div className='cardthreediv'>   
                          <Card className='cardthree'>
-                         <h2 className='cardheading'>multi media</h2>
+                         <h2 className='cardheading'>Ui Design</h2>
                              <p className='cardperagraf'>
-                                  A fine balanced mix of technology, structre, aesthetics of 
-                                  a baby smile. The computer is an extension of mind.
+                                  user interface (UI) design is the process designers use to build interfaces 
+                                  in software or compuerized devices, foucing
                                </p>
                                <div className='cardimagedivthree'>
-                               <img alt='WebDebelopment' className='cardimage'src={process.env.PUBLIC_URL+'/multimadia.png'}/>
+                               <img alt='WebDebelopment' className='cardimage_three'src={process.env.PUBLIC_URL+'/multimadia.png'}/>
                                </div>
                                <div className='rdmdiv'>
                         <button className='rdmbtn'>read more</button></div>

@@ -118,18 +118,29 @@
 .cardheading{
     font-size: 24px;
     text-transform: capitalize;
+    letter-spacing: 3px;
+    font-weight: bolder ;
+    font-family: arial;
 }
 .cardperagraf{
     font-size: 18px;
     letter-spacing: 0.5px;
-    text-align: justify;
+    text-align: center;
+     font-family: arial;
+     text-transform: capitalize;
 }
 .cardone{
     width: 360px;
     height: 580px;
     text-align: center; 
 }
-.cardimage{
+.cardimage_one{
+    width: 300px;
+    height: 250px;
+}.cardimage_two{
+    width: 280px;
+    height: 225px;
+}.cardimage_three{
     width: 300px;
     height: 250px;
 }

@@ -61,6 +61,13 @@
     width: 24px;
     height: 24px;
 }
+.mobile_div{
+    display: flex;
+}
+.mobile_icon{
+    width: 14px;
+    height: 18px;
+}
 .Eamil_address{
     font-size: 16px;
     padding-left: 5px;
