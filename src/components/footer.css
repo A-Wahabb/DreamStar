@@ -14,7 +14,7 @@
 .our_company .link h3{
    width: 50%;
 }
-.our_company h3:hover,a{
+.our_company h3:hover{
     width: 50%;
     background-color: #448ee4;
     color: white;
