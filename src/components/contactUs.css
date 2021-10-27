@@ -48,3 +48,16 @@
     text-align: center;
     cursor: pointer;
 }
+.Email_address{
+    background-color: blue;
+    width: 500px;
+    height: 70px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+}
+.gmail_icon{
+    width: 24px;
+    height: 24px;
+}

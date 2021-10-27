@@ -38,20 +38,18 @@ const ContactUs=()=>{
                 name='Email Address'
                  required />
                 <br />
-                
+               
                     <br />
-                <input className='Massage_input'
-                 placeholder='Massage' 
-                 type='text' 
-                name='Massage'
-                 required />
+                   
                  <br/>
                  <br/>
                  <button className='send_btn'>Send</button>
                 </form>
-                <div className='Email_address'>
-                      <p> dream.star@gmail.com</p>
             </div>
+            <div className='Email_address'>
+                <div>
+            <img alt='g-mail' className='gmail_icon' src={process.env.PUBLIC_URL+'/email.png'} /></div>
+                     <div> <p> dream.star@gmail.com</p></div>
             </div>
            
         </div>
