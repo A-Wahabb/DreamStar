@@ -52,6 +52,6 @@ ul li a{
  }
  @media screen and (max-width: 950px){
   .non-mobile-links{
-    display: none;
+    display: flex;
   }
  }

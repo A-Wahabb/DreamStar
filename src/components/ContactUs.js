@@ -40,7 +40,7 @@ const ContactUs=()=>{
                 <br />
                
                     <br />
-                   
+    
                  <br/>
                  <br/>
                  <button className='send_btn'>Send</button>
