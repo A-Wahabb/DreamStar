@@ -61,58 +61,7 @@ const Home=()=>{
                         <button className='rdmbtn'>read more</button></div>
            
        
-           </div>
-                                  {/* cards */}
-                                  
-            <div className='cardsdiv'>
-                <div>
-                                        {/* card_one */}
-                     <Card className='cardone'>
-                         <h2 className='cardheading'>website design</h2>
-                          <p className='cardperagraf'>Don't forget that first impressions are lasting ones. Make your 
-                              presence on the Information Highway. The time is perfect to get your 
-                              business online.
-                               </p>
-                               <div>
-                               <img alt='WebDebelopment' className='cardimage_one'src={process.env.PUBLIC_URL+'/web.jpg'}/>
-                               </div>
-                               <div className='rdmdiv'>
-                        <button className='rdmbtn'>read more</button></div>
-                         </Card> 
-                            </div>   
-                                                  {/* card_two */}
-                            <div className='cardtwodiv'>
-                         <Card className='cardtwo'>
-                         <h2 className='cardheading'>sage development</h2>
-                          <p className='cardperagraf'>
-                              if you need a specific sage amendment, wish to automate a business 
-                              process or simply wish to integrate to another
-                               </p>
-                               <div className='cardimagediv'>
-                               <img alt='WebDebelopment' className='cardimage_two'src={process.env.PUBLIC_URL+'/sage_icon.png'}/> 
-                               </div>
-                               <div className='rdmdiv'>
-                        <button className='rdmbtn'>read more</button></div>
-                          </Card> 
-                          </div>  
-                                                       {/* card_three */}
-                          <div className='cardthreediv'>   
-                         <Card className='cardthree'>
-                         <h2 className='cardheading'>Ui Design</h2>
-                             <p className='cardperagraf'>
-                                  user interface (UI) design is the process designers use to build interfaces 
-                                  in software or compuerized devices, foucing
-                               </p>
-                               <div className='cardimagedivthree'>
-                               <img alt='WebDebelopment' className='cardimage_three'src={process.env.PUBLIC_URL+'/multimadia.png'}/>
-                               </div>
-                               <div className='rdmdiv'>
-                        <button className='rdmbtn'>read more</button></div>
-                        </Card> 
-                        </div>       
-                          </div>
-                         
-                          
+           </div>         
         </div>
     )
 }
