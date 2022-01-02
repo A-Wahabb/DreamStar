@@ -1,9 +1,9 @@
 import React from "react";
 import './home.css';
-import { Carousel,Card } from 'antd'
+import { Carousel } from 'antd'
 
 
-const Home=()=>{
+const Home=() =>{
     return(
         <div className='home'>
            
@@ -42,7 +42,7 @@ const Home=()=>{
                             application from simple standaione softwere to development of software solution that 
                             gives a edge to your busniess. developin software with integratio to thir party accounting 
                                 software. financial application and customer relationship management application. 
-                                
+                             
                         </p>
                         <div className='readmorediv'>
                         <button className='readmorebtn'>Read more</button></div>

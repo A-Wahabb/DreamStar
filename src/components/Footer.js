@@ -29,7 +29,7 @@ const Footer = () => {
                                Contact Information 
                                     </h2>
                                     <div className='logo'>
-         <img src={process.env.PUBLIC_URL+'\\dsclogo.png'} title='DreamStarCoder'  height={90} width={74} />
+         <img src={process.env.PUBLIC_URL+'\\dsclogo.png'} alt='DreamStarCoder' title='DreamStarCoder'  height={90} width={74} />
          </div>
          <div>
             <p className='company_name'> DreamStarCoder (pvt) limited</p>

@@ -17,7 +17,7 @@ const App = () => {
        <ScrollToTop />
         <div className='Nav-part'>
          <div className='logo'>
-         <img src={process.env.PUBLIC_URL+'\\dsclogo.png'} title='DreamStarCoder'  height={110} width={100} />
+         <img src={process.env.PUBLIC_URL+'\\dsclogo.png'} alt='DreamStarCoder' title='DreamStarCoder'  height={110} width={100} />
          </div>
          <div className='non-mobile-links'>
          <ul>
