@@ -1,8 +1,6 @@
 import React from "react";
 import './home.css';
 import { Carousel } from 'antd'
-
-
 const Home=() =>{
     return(
         <div className='home'>
