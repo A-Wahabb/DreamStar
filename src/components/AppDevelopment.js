@@ -38,22 +38,8 @@ const AppDevelopment=()=>{
                    our process involves business analysis, specification, system analysis and design, implementation & 
                    testing.
                </p>
-
           </div>
-         
-              <h1 className='AppDevelopment_heading'>technology we use</h1>
-              <div className='technology_icon'>
-              <div className='iconone'>
-                <img alt='Andriod' className='icons' src={process.env.PUBLIC_URL+'/andriodicon.png'}/>
-                    <figcaption className='Andriodcaption'>Andriod</figcaption>
-              </div>
-              <div className='iconone'>
-                <img alt='React' className='icons' src={process.env.PUBLIC_URL+'/R.png'}/>
-                    <figcaption className='Reactcaption'>React Native</figcaption>
-              </div>
-              </div>
-         
-         </div>
+          </div>
         </div>
     )
 }

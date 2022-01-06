@@ -1,6 +1,8 @@
 import React from "react";
 import './home.css';
 import { Carousel } from 'antd'
+
+
 const Home=() =>{
     return(
         <div className='home'>
@@ -26,40 +28,51 @@ const Home=() =>{
                         <h1 className='firstheading'>
                             welcome to the dreamStarCoder
                         </h1>
-                          <h2 className='secondheading'>
-                              we biuld digital solution
-                          </h2>
-                          <h3 className='hmainheading'>
-                              softwere development
-                          </h3>
                         </div>
                         <div className='home_content'>
                         <p>
-                            dreamStarCoder software company are software development company focused on quality
-                            and timely delivery of standard business applications, vertical market and bespoke customised
-                            application from simple standaione softwere to development of software solution that 
-                            gives a edge to your busniess. developin software with integratio to thir party accounting 
-                                software. financial application and customer relationship management application. 
-                             
+                            DreamStarCoder is a software company that provides services by converting your ideas into 
+                            a solid. Product along respecting the standardized life cycle and ethics of the softawre community.
+                            Our team would cpnvert your ideas into a market-competitive product and lead your business high up to the sky. 
+                                
                         </p>
                         <div className='readmorediv'>
                         <button className='readmorebtn'>Read more</button></div>
            </div>
            <div className='webmobAppdlp'>
-                      <h2 className='webmobAppdlp_heading'>web&mobile Application development</h2>
+                      <h2 className='webmobAppdlp_heading'>web & mobile Application development</h2>
                       <p className='webmobAppdlp_peragrf'>
-                          in the era where interent and access to information is a pre-requisite.
-                         web application are becoming a standard way of delivering solutions to 
-                          provide timely information and methods of processing data using a range of
-                          devices and platforms. web apps and mobile apps provide users the capability 
-                          of processing information remotely while on the move over the internet,
-                          intranet or mobile devices. 
+                      We deliver an incredible mobile experience with native ios and android apps and when it comes
+                      to a cross-platform solution, Our expertise and technology provide a good balance between
+                       development efficiency and the performance and feel of a native application. We also build
+                        react applications that are efficient, and easy to maintain.  
                       </p>  
                       <div className='rdmdiv'>
                         <button className='rdmbtn'>read more</button></div>
-           
-       
-           </div>         
+           </div>
+           <div>
+                    <h1 className='web_heading'>
+                        technology we use
+                    </h1>
+                    <div className='web_tech_icon'>
+                    <div className='mongo_icon'>
+                   <img alt='Mongo DB' className='Mongo_db' src={process.env.PUBLIC_URL+'/M.png'} />
+                    <figcaption className='Mongo_figerCaption'> mongo dB  </figcaption>
+                </div>
+                <div className='express_icon' >
+                <img alt='Express Js' className='Express_js' src={process.env.PUBLIC_URL+'/E.png'} />
+                <figcaption className='Express_figerCaption'> express js </figcaption>
+                </div>
+                <div  className='react_icon'>
+                <img alt='ReactJs' className='React_js' src={process.env.PUBLIC_URL+'/R.png'} />
+                <figcaption className='React_figerCaption'> reactjs</figcaption>
+                </div>
+                <div  className='node_icon'>
+                <img alt='NodeJs' className='Node_js' src={process.env.PUBLIC_URL+'/N.png'} />
+                <figcaption className='Node_figerCaption'> node js </figcaption>
+                </div>
+                     </div>
+               </div> 
         </div>
     )
 }
