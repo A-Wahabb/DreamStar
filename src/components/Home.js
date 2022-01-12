@@ -77,6 +77,12 @@ const Home=() =>{
                    <span className='headingourpartners'>
                        <h1>our trasted partners</h1>
                    </span>
+                   <div className="our_trasted_partners_icons">
+                   <span>
+                       <img  className="our_trasted_partners_icons_syle" src={process.env.PUBLIC_URL+'/guesttwo.png'} alt="Guesstwo Icon" />
+                       <img  className="our_trasted_partners_icons_syle" src={process.env.PUBLIC_URL+'/wirelessmerch.png'} alt="Wirelessmerch Icon" />
+                   </span>
+                   </div>
                </div>
         </div>
     )

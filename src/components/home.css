@@ -167,6 +167,15 @@
     text-transform: capitalize;
     
 }
+.our_trasted_partners_icons{
+    text-align: center;
+    
+}
+.our_trasted_partners_icons_syle{
+    height: 100px;
+    width: 350px;
+    padding-right: 30px;
+}
                                            /* ResponsiveNess */
  @media screen and (max-width: 1000px){
 .web_tech_icon{
