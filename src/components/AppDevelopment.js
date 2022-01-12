@@ -10,34 +10,38 @@ const AppDevelopment=()=>{
          </div>
          <div  className='AppDevelopment_content'>
              <div>
-                 <h1 className='AppDevelopment_heading'>App Development</h1>
+                 <h1 className='AppDevelopment_heading'>ios and andorid development with react native</h1>
                        <p className='AppDevelopment_peragraf' >
-                           dreamStarCoder provides complete software product development services, software lifecycle and
-                           updates services. the company has many years experiance in design, development and maintenance
-                           of software products. we take ideas from which we design and build software adding innovation and
-                           creativity into the product. 
-                       </p>
-                       <p className='AppDevelopment_peragraf'>
-                           we naver give a commitment that we can't keep. we challenge ourselves with the most 
-                           current and cutting-edge problems and we take pride in solving them. we are highly qualified 
-                           to provide software solution which are reliable, flexible, essy to use.
-                       </p>
+                           our team deals with all sorts of react native application and affers development, design,
+                           testing, and maintenance services for them.
+                               <span>
+                                   <p>
+                                   </p>
+                                   the potential of javaScript open-source libraries, we DreamStarCoder provide a wide range of
+                                   react native web and mobile app development services taht span across different industry zones, 
+                                   with enterprieses of varied sizes.
+                                   <p/> 
+                                   </span>
+                                   <p>
+                                       react native is a framwork that lets developers bulid native mobile apps using JS. it enables 
+                                       us to bulid an application for multiple platforms while using the same codebase. this can 
+                                       shorten the development time of your project and reduce the overall cost of building a mobile app... 
+                                   </p>
+                               
+                       </p>  
               </div>
          
           
           <div>
-              <h1 className='AppDevelopment_heading'>project Manager</h1>
+              <h1 className='AppDevelopment_heading'>our latest work</h1>
+              <h1>guesttwo</h1>
+              <img src={process.env.PUBLIC_URL+'/app.jpg'} alt="cheak" width={200} height={300}/>
               <p className='AppDevelopment_peragraf'>
-                before getting in to the work. our project management team first analyses the real requirements
-                 functionality. staffing and objectives. we never make a commitment that we can't keep. we spend 
-                 good time in writing a plan. and we estimate the time lines based on the effort we have to put and 
-                 we feel the task is completed when they are 100% complete.
+                guesttwo is an online platform in the toursim sector in pakistan.
+                for guesttwo we bulit the mobile app and website using our the this state 
+                of the art technology infrastructure. the web has significant visibility after 
+                the initial launch and the team continues to enhance the user experience. 
               </p>
-               <p className='AppDevelopment_peragraf'>
-                   we follow a development process to make a successful completion of the assigment we undertake. 
-                   our process involves business analysis, specification, system analysis and design, implementation & 
-                   testing.
-               </p>
           </div>
           </div>
         </div>

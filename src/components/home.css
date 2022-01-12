@@ -85,3 +85,92 @@
     height: 60px;
     cursor: pointer;
 }
+                               /* Web Techonology we use main div */
+.web_tech_icon{
+    display: flex;
+    justify-content: center;
+ 
+}
+                     /* Mongo DB  */
+.mongo_icon{
+    padding-right: 40px;
+    padding-left: 10px;
+}
+.Mongo_db{
+    width: 180px;
+    height: 180px;
+   
+}
+.Mongo_figerCaption{
+    background-color: #3FA037;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+              /* Express JS */
+.express_icon{
+    padding-right: 40px;
+    padding-left: 10px;
+}
+.Express_js{
+    width: 180px;
+    height: 180px;
+}
+.Express_figerCaption{
+    background-color: orange;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: capitalize;
+} 
+                      /* React Js  */
+.react_icon{
+    padding-right: 40px;
+    padding-left: 10px;
+}
+.React_js{
+    width: 180px;
+    height: 180px;
+}
+.React_figerCaption{
+    background-color: #448ee4;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: capitalize;
+
+}
+                /* Node JS */
+.node_icon{
+    padding-right: 40px;
+    padding-left: 10px;
+}
+.Node_js{
+    width: 180px;
+    height: 180px;
+}
+.Node_figerCaption{
+    background-color: #3c873a ;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: capitalize;   
+}
+                                /* our trasted partners */
+.ourpartnersmaindiv{
+    justify-content: center;
+    padding-top: 20px;
+}
+.headingourpartners{
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+                                           /* ResponsiveNess */
+ @media screen and (max-width: 1000px){
+.web_tech_icon{
+    display: grid;
+}
+}                                   
+

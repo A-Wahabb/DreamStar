@@ -52,7 +52,7 @@ const Home=() =>{
            </div>
            <div>
                     <h1 className='web_heading'>
-                        technology we use
+                        technology we used
                     </h1>
                     <div className='web_tech_icon'>
                     <div className='mongo_icon'>
@@ -73,6 +73,11 @@ const Home=() =>{
                 </div>
                      </div>
                </div> 
+               <div className="ourpartnersmaindiv">
+                   <span className='headingourpartners'>
+                       <h1>our trasted partners</h1>
+                   </span>
+               </div>
         </div>
     )
 }
