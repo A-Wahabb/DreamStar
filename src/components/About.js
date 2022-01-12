@@ -8,33 +8,30 @@ const About=()=>{
          <div>
          <img alt='AppDevelopment' className='contentStyle'src={process.env.PUBLIC_URL+'/aboutus.jpg'}/>
          </div>
-         <div className='about_content'>
-             <div>
-             <h2 className='headingone'>what we are </h2>
-             <h3 className='headings'>we are a pakistani owned </h3>
-             <h3 className='headings'> software developmnet company</h3>
-             <h3 className='headings'>our office in peshawar</h3>
-             <p className='about_paragraf'>as a service provider, we are determoined to be the luxury software development service for our clients
-                 we are very proud as a company to always deliver on our word and our promise to iur clients.
-             </p>
-             </div>
-             <div>
-                   <h1 className='whatwedo'>what we do</h1>
-                   <p className='whatwedoperagraf'>
-                       DreamStarCoder help businesses elevate their value through custom software.
-                       development, prouduct design. QA & consultancy services. we can help to maintain 
-                       and modernize it infrastructure and solve various issues abusiness may face. 
-                   </p>
-                   </div>
-         <div>
-             <h1 className='vision_heading'>our vision</h1>
-             <p className='vision_peragraf' >
-                 our vision is to be leader in the area of business software development . we know,
-                  there are lot of measurements to fulfil to achieve our vision. but we are optimisis. we are
-                  hardworking. our team is innovative and goal oriented. our mission is achieving greater customer 
-                  satisfaction.
-             </p>
-         </div>
+         <div className='about_content'> 
+          <span><p className="about_paragraf">
+              DreamStarCoder has born from a desire to deliver equally high standards and consistency 
+              in both web & App design and development.
+              <span><p className="about_paragraf">
+                   DreamStarCoder is a pakistani-based software company. it has founded by creative 
+                   director Mr. Wahid Ur Rahman.
+                   <span><p className="about_paragraf">
+                       our clients all agree we are the most affordable responsive web & app development 
+                       company, delivering more to get you results. our goal is to provide a service that 
+                       keeps our clients happy.
+                  <span><p className="about_paragraf">
+                      we're a team of designer and coders working to create beautiful, user-friendly 
+                      digital experiences for important causes. we passionately believe that design & 
+                      technology can be a powerful force for change.
+             <span><p className="about_paragraf">
+                  as a service provider, we are determined to be the luxury software development 
+                  service for our clients. we are very proud as a company to always deliver on our 
+                  word and our promise to our clients.
+                      </p></span>
+                      </p></span>
+                      </p></span>
+                      </p></span> 
+              </p></span>
          </div>
         </div>
     )
