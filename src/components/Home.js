@@ -51,7 +51,7 @@ const Home=() =>{
                         <button className='rdmbtn'>read more</button></div>
            </div>
            <div>
-                    <h1 className='web_heading'>
+                    <h1 className='technolgy_heading'>
                         technology we used
                     </h1>
                     <div className='web_tech_icon'>
@@ -71,11 +71,19 @@ const Home=() =>{
                 <img alt='NodeJs' className='Node_js' src={process.env.PUBLIC_URL+'/N.png'} />
                 <figcaption className='Node_figerCaption'> node js </figcaption>
                 </div>
+                <div  className='andriod_icon'>
+                <img alt='ReactJs' className='andriod_style' src={process.env.PUBLIC_URL+'/ANDRIOD.png'} />
+                <figcaption className='andriod_figerCaption'> Andriod </figcaption>
+                </div>
+                <div  className='react_icon'>
+                <img alt='ReactJs' className='React_js' src={process.env.PUBLIC_URL+'/R.png'} />
+                <figcaption className='React_figerCaption'> REACT Native </figcaption>
+                </div>
                      </div>
                </div> 
                <div className="ourpartnersmaindiv">
-                   <span className='headingourpartners'>
-                       <h1>our trasted partners</h1>
+                   <span>
+                       <h1 className='headingourpartners'>our trasted partners</h1>
                    </span>
                    <div className="our_trasted_partners_icons">
                    <span>

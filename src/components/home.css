@@ -86,6 +86,14 @@
     cursor: pointer;
 }
                                /* Web Techonology we use main div */
+.technolgy_heading{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 3px;
+    padding-top: 20px;
+
+}
 .web_tech_icon{
     display: flex;
     justify-content: center;
@@ -97,8 +105,8 @@
     padding-left: 10px;
 }
 .Mongo_db{
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
    
 }
 .Mongo_figerCaption{
@@ -106,7 +114,7 @@
     font-size: 24px;
     text-align: center;
     font-weight: bolder;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
               /* Express JS */
 .express_icon{
@@ -114,15 +122,15 @@
     padding-left: 10px;
 }
 .Express_js{
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
 }
 .Express_figerCaption{
     background-color: orange;
     font-size: 24px;
     text-align: center;
     font-weight: bolder;
-    text-transform: capitalize;
+    text-transform: uppercase;
 } 
                       /* React Js  */
 .react_icon{
@@ -130,15 +138,15 @@
     padding-left: 10px;
 }
 .React_js{
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
 }
 .React_figerCaption{
     background-color: #448ee4;
     font-size: 24px;
     text-align: center;
     font-weight: bolder;
-    text-transform: capitalize;
+    text-transform: uppercase;
 
 }
                 /* Node JS */
@@ -147,24 +155,43 @@
     padding-left: 10px;
 }
 .Node_js{
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
 }
 .Node_figerCaption{
     background-color: #3c873a ;
     font-size: 24px;
     text-align: center;
     font-weight: bolder;
-    text-transform: capitalize;   
+    text-transform: uppercase;   
 }
+                      /* Andriod  */
+                      .andriod_icon{
+                        padding-right: 40px;
+                        padding-left: 10px;
+                    }
+                    .andriod_style{
+                        width: 150px;
+                        height: 150px;
+                    }
+                    .andriod_figerCaption{
+                        background-color: #448ee4;
+                        font-size: 24px;
+                        text-align: center;
+                        font-weight: bolder;
+                        text-transform: uppercase;
+                    
+                    }
                                 /* our trasted partners */
 .ourpartnersmaindiv{
-    justify-content: center;
     padding-top: 20px;
 }
 .headingourpartners{
-    text-align: center;
     text-transform: capitalize;
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 3px;
+    padding-top: 20px;
     
 }
 .our_trasted_partners_icons{
