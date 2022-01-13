@@ -38,7 +38,7 @@ const WebDevelopment=()=>{
                   </p></span>
              <span><h1 className="web_heading">our latest work</h1></span>
              <span><h1 className="guesttwo_heading">guesttwo</h1></span>
-             <img className="app_img" src={process.env.PUBLIC_URL+'/guesttwoHomePic.png'} alt="Guessttwo Home Pic" />
+             <img className="web_app_img" src={process.env.PUBLIC_URL+'/guesttwoHomePic.png'} alt="Guessttwo Home Pic" />
              <span><p className="web_paragraf">
                  guesttwo is an online platform in the tourism sector in pakistan. for guesttwo we bluilt the 
                  mobile app and website using our the state of the art technology infrastructure. the web has significant 
