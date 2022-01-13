@@ -35,7 +35,7 @@ const AppDevelopment=()=>{
           <div>
               <h1 className='AppDevelopment_heading'>our latest work</h1>
               <h1>guesttwo</h1>
-              <img className="app_img" src={process.env.PUBLIC_URL+'/app.jpg'} alt="cheak" width={200} height={300}/>
+              <img className="app_img" src={process.env.PUBLIC_URL+'/guesttwoHomePic.png'} alt="Guessttwo Home Pic" />
               <p className='AppDevelopment_peragraf'>
                 guesttwo is an online platform in the toursim sector in pakistan.
                 for guesttwo we bulit the mobile app and website using our the this state 
