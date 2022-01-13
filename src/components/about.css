@@ -1,6 +1,6 @@
 .about_content{
-    padding-left: 83px;
-    padding-right: 83px;
+    padding-left: 120px;
+    padding-right: 120px;
     padding-top: 20px;
 }
 .about_paragraf{
@@ -8,5 +8,5 @@
     font-family: arial;
     text-align: justify;
     text-transform: capitalize;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }

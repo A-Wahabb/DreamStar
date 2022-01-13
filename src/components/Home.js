@@ -87,8 +87,8 @@ const Home=() =>{
                    </span>
                    <div className="our_trasted_partners_icons">
                    <span>
-                       <img  className="our_trasted_partners_icons_syle" src={process.env.PUBLIC_URL+'/guesttwo.png'} alt="Guesstwo Icon" />
-                       <img  className="our_trasted_partners_icons_syle" src={process.env.PUBLIC_URL+'/wirelessmerch.png'} alt="Wirelessmerch Icon" />
+                       <img  className="our_trasted_partners_icons_syle_one" src={process.env.PUBLIC_URL+'/guesttwo.png'} alt="Guesstwo Icon" />
+                       <img  className="our_trasted_partners_icons_syle_two" src={process.env.PUBLIC_URL+'/wirelessmerch.png'} alt="Wirelessmerch Icon" />
                    </span>
                    </div>
                </div>

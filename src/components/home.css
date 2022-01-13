@@ -1,6 +1,6 @@
 .contentStyle{
     width:100%;
-    height: 700px;
+    height: 600px;
     color: #fff;
     
 }
@@ -26,7 +26,7 @@
     text-transform: capitalize;
     font-weight: bolder;
     text-align: center;
-    font-size: 64px;
+    font-size: 50px;
     font-family: arial;    
 }
 .readmorediv{
@@ -198,11 +198,19 @@
     text-align: center;
     
 }
-.our_trasted_partners_icons_syle{
+.our_trasted_partners_icons_syle_one{
     height: 100px;
-    width: 350px;
+    width: 250px;
     padding-right: 30px;
+    line-height: 20px;
 }
+.our_trasted_partners_icons_syle_two{
+    height: 70px;
+    width: 300px;
+    line-height: 20px;
+    
+}
+
                                            /* ResponsiveNess */
  @media screen and (max-width: 1000px){
 .web_tech_icon{
