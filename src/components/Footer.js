@@ -18,19 +18,17 @@ const Footer = () => {
                                Follow Us
                                </h2>
                                <div className='socialicon'>
-                               <div className='socialicondiv' > <img alt='Facebook' onClick={()=>{}} src={process.env.PUBLIC_URL+'\\facebok.png'} title='facebook' className='socialicon'  height={48} width={48} /></div>
-                               <div className='socialicondiv'> <img alt='Twitwer' src={process.env.PUBLIC_URL+'\\twitw.png'} title='twitwer' className='socialicon'  height={48} width={48} /></div>
-                               <div className='socialicondiv'><img alt='Linkdin' src={process.env.PUBLIC_URL+'\\linkdin.png'} title='linkdin' className='socialicon' height={48} width={48} /></div>
-                               <div className='socialicondiv'><img alt='Whatsapp' src={process.env.PUBLIC_URL+'\\watsapp.png'} title='wathsapp' className='socialicon' height={48} width={48} /></div>
+                               <div className='socialicondiv' > <img alt='Facebook' onClick={()=>{}} src={process.env.PUBLIC_URL+'\\facebok.png'} title='facebook' className='socialicon'  height={20} width={20} /></div>
+                               <div className='socialicondiv'> <img alt='Twitwer' src={process.env.PUBLIC_URL+'\\twitw.png'} title='twitwer' className='socialicon'  height={20} width={20} /></div>
+                               <div className='socialicondiv'><img alt='Linkdin' src={process.env.PUBLIC_URL+'\\linkdin.png'} title='linkdin' className='socialicon' height={20} width={20} /></div>
+                               <div className='socialicondiv'><img alt='Whatsapp' src={process.env.PUBLIC_URL+'\\watsapp.png'} title='wathsapp' className='socialicon' height={20} width={20} /></div>
                                   </div>       
                             </div>
                             <div  className='contact_us'>
                                 <h2>
                                Contact Information 
                                     </h2>
-                                    <div className='logo'>
-         <img src={process.env.PUBLIC_URL+'\\dsclogo.png'} alt='DreamStarCoder' title='DreamStarCoder'  height={90} width={74} />
-         </div>
+                                   
          <div>
             <p className='company_name'> DreamStarCoder (pvt) limited</p>
             <div className='gmail_div'>
@@ -40,11 +38,14 @@ const Footer = () => {
             <div className='mobile_div'>
             <img alt='Mobile' className='mobile_icon' src={process.env.PUBLIC_URL+'/mobile.png'} />
             <p>+923130908533</p></div>
+            <div className='logo'>
+         <img src={process.env.PUBLIC_URL+'\\dsclogo.png'} alt='DreamStarCoder' title='DreamStarCoder'  height={90} width={74} />
+         </div>
          </div>
            </div>
         </div>
                
-                   <h3 className='copyright_note'>Copyright @ 2021 DreamStarCoder (pvt) limited</h3>
+                   <h3 className='copyright_note'>Copyright @ 2022 DreamStarCoder (pvt) limited</h3>
                    
         </div>
     )

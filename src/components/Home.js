@@ -65,7 +65,7 @@ const Home=() =>{
                 </div>
                 <div  className='react_icon'>
                 <img alt='ReactJs' className='React_js' src={process.env.PUBLIC_URL+'/R.png'} />
-                <figcaption className='React_figerCaption'> reactjs</figcaption>
+                <figcaption className='React_figerCaption'> react js</figcaption>
                 </div>
                 <div  className='node_icon'>
                 <img alt='NodeJs' className='Node_js' src={process.env.PUBLIC_URL+'/N.png'} />
@@ -77,13 +77,13 @@ const Home=() =>{
                 </div>
                 <div  className='react_icon'>
                 <img alt='ReactJs' className='React_js' src={process.env.PUBLIC_URL+'/R.png'} />
-                <figcaption className='React_figerCaption'> REACT Native </figcaption>
+                <figcaption className='React_figerCaption'> React Native </figcaption>
                 </div>
                      </div>
                </div> 
                <div className="ourpartnersmaindiv">
                    <span>
-                       <h1 className='headingourpartners'>our trasted partners</h1>
+                       <h1 className='headingourpartners'>our trusted partners</h1>
                    </span>
                    <div className="our_trasted_partners_icons">
                    <span>
