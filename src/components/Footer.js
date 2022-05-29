@@ -1,9 +1,10 @@
 import React from 'react'
 import './footer.css'
 import {NavLink} from 'react-router-dom'
+import { Zoom } from 'react-reveal'
 const Footer = () => {
     return (
-        <div>
+        <Zoom>
             <div className='footer_main'>
                             <div className='our_company'>
                                  <h2>Our Company</h2>
@@ -37,7 +38,7 @@ const Footer = () => {
             </div>
             <div className='mobile_div'>
             <img alt='Mobile' className='mobile_icon' src={process.env.PUBLIC_URL+'/mobile.png'} />
-            <p>+923130908533</p></div>
+            <p>+3129009520</p></div>
             <div className='logo'>
          <img src={process.env.PUBLIC_URL+'\\dsclogo.png'} alt='DreamStarCoder' title='DreamStarCoder'  height={90} width={74} />
          </div>
@@ -47,7 +48,7 @@ const Footer = () => {
                
                    <h3 className='copyright_note'>Copyright @ 2022 DreamStarCoder (pvt) limited</h3>
                    
-        </div>
+        </Zoom>
     )
 }
 

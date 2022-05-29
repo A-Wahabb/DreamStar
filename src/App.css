@@ -6,14 +6,14 @@
   display: inline-block;
   width: 150px;
   height: 124px;
-  margin: 0px 10px 10px 4%;
+  margin: 10px 10px 10px 4%;
   padding: .1%;
   /* padding-left: 130px; */
   line-height: 120px;
 }
 .Nav-part{
     display: block;
-    height: 130px;
+    height: 140px;
     margin: 0px;
 }
 
@@ -21,7 +21,7 @@
   position: relative;
   float:right;
   right: 5%;
-  top: 50%;
+  top: 30%;
 }
 ul {
   list-style: none;

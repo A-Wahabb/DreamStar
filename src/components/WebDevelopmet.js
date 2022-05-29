@@ -1,9 +1,10 @@
 import React from "react";
+import { Zoom } from "react-reveal";
 import './WebDevelopment.css'
 
 const WebDevelopment=()=>{
     return(
-        <div>
+        <Zoom>
             <div>
                 <img alt='WebDevelopment' className='contentStyle' src={process.env.PUBLIC_URL+'/web.jpg'}/>
             </div>
@@ -45,7 +46,7 @@ const WebDevelopment=()=>{
                  visibility after the initial launch and the team continues to enhance the user experience.
                  </p></span>
            </div>
-        </div>
+        </Zoom>
     )
 }
 export default WebDevelopment

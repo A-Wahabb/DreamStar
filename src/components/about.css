@@ -10,3 +10,14 @@
     text-transform: capitalize;
     letter-spacing: 2px;
 }
+ol{
+    list-style:outside;
+    margin: 20px;
+    padding: 20px;
+}
+ol li{
+    margin-left: 2px;
+}
+ol>li a{
+    background-color: aqua;
+}

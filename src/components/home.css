@@ -22,7 +22,7 @@
     text-transform: capitalize;
 }
 .firstheading{
-    color: blue!important;
+    color: #1890ff !important;
     letter-spacing: 1px!important;
     text-transform: capitalize;
     font-weight: bolder;
@@ -38,7 +38,7 @@
     /* padding-top: 5px;  */
 }
 .readmorebtn{
-    background-color: #448ee4;
+    background-color: #1890ff;
     color: #fff;
     cursor: pointer;
     text-transform: lowercase;
@@ -56,7 +56,7 @@
 }
 .webmobAppdlp_heading{
     letter-spacing: 2px;
-    color: blue;
+    color: #1890ff;
     text-transform: capitalize;
     font-weight: bolder;
     text-align: center;
@@ -96,7 +96,7 @@
     font-size: 34px;
     letter-spacing: 2px;
     padding-top: 50px;
-    color: blue;
+    color: #1890ff;
 
 }
 .web_tech_icon{
@@ -197,7 +197,7 @@
     text-transform: capitalize;
     text-align: center;
     font-size: 34px;
-    color: blue;
+    color: #1890ff;
     letter-spacing: 3px;
     padding-top: 20px;
     

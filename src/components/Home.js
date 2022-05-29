@@ -1,14 +1,16 @@
 import React from "react";
 import './home.css';
-import { Carousel } from 'antd'
+
+import { Bounce, Zoom } from "react-reveal";
 
 
 const Home=() =>{
     return(
+        <Zoom>
         <div className='home'>
            
            <div className='slider'>
-           <Carousel autoplay style={{width:'100%'}}  >
+          
            <div>
            <img alt='DreamStarCoder' className='contentStyle' src={process.env.PUBLIC_URL+'/slideone.jpg'}/>
           </div>    
@@ -21,12 +23,12 @@ const Home=() =>{
           <div>
            <img alt='WebDevelopment' className='contentStyle'src={process.env.PUBLIC_URL+'/web.jpg'}/>
           </div>
-  </Carousel>
+
            </div>
            <br/>
                          <div>
                         <h1 className='firstheading'>
-                            welcome to the dreamStarCoder
+                            Welcome to the dreamStarCoder
                         </h1>
                         </div>
                         <div className='home_content'>
@@ -50,38 +52,8 @@ const Home=() =>{
                       <div className='rdmdiv'>
                         <button className='rdmbtn'>read more</button></div>
            </div>
-           <div>
-                    <h1 className='technolgy_heading'>
-                        technology we used
-                    </h1>
-                    <div className='web_tech_icon'>
-                    <div className='mongo_icon'>
-                   <img alt='Mongo DB' className='Mongo_db' src={process.env.PUBLIC_URL+'/M.png'} />
-                    <figcaption className='Mongo_figerCaption'> mongo dB  </figcaption>
-                </div>
-                <div className='express_icon' >
-                <img alt='Express Js' className='Express_js' src={process.env.PUBLIC_URL+'/E.png'} />
-                <figcaption className='Express_figerCaption'> express js </figcaption>
-                </div>
-                <div  className='react_icon'>
-                <img alt='ReactJs' className='React_js' src={process.env.PUBLIC_URL+'/R.png'} />
-                <figcaption className='React_figerCaption'> react js</figcaption>
-                </div>
-                <div  className='node_icon'>
-                <img alt='NodeJs' className='Node_js' src={process.env.PUBLIC_URL+'/N.png'} />
-                <figcaption className='Node_figerCaption'> node js </figcaption>
-                </div>
-                <div  className='andriod_icon'>
-                <img alt='ReactJs' className='andriod_style' src={process.env.PUBLIC_URL+'/ANDRIOD.png'} />
-                <figcaption className='andriod_figerCaption'> Andriod </figcaption>
-                </div>
-                <div  className='react_icon'>
-                <img alt='ReactJs' className='React_js' src={process.env.PUBLIC_URL+'/R.png'} />
-                <figcaption className='React_figerCaption'> React Native </figcaption>
-                </div>
-                     </div>
-               </div> 
-               <div className="ourpartnersmaindiv">
+          
+               <Bounce className="ourpartnersmaindiv">
                    <span>
                        <h1 className='headingourpartners'>our trusted partners</h1>
                    </span>
@@ -91,8 +63,9 @@ const Home=() =>{
                        <img  className="our_trasted_partners_icons_syle_two" src={process.env.PUBLIC_URL+'/wirelessmerch.png'} alt="Wirelessmerch Icon" />
                    </span>
                    </div>
-               </div>
+               </Bounce>
         </div>
+        </Zoom>
     )
 }
 export default Home

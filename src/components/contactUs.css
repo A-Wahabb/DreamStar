@@ -8,8 +8,10 @@
 }
 .form_table{
          /* border: 2px; */
-         box-shadow: rgb(83, 70, 70) 2px 2px 12px 12px;
+         display: flex;
 }
 .contact_address{
     margin: 30px;
+    display: flex;
+    flex-direction: column;
 }

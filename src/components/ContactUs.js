@@ -1,15 +1,16 @@
 import React from "react";
+import { Zoom } from "react-reveal";
 import './contactUs.css'
 
 const ContactUs=()=>{
     return(
-        <div>
+        <Zoom>
             <div>
                 <img alt='Contact Us' className='contentStyle' src={process.env.PUBLIC_URL+'/contact.jpg'} />
             </div>
             <div className="contact_content">
                 <span>
-                    <p className="Contact_paraghrph">Hello! we are located in Peshawar (Pakistan). feel free to use the contact form
+                    <p className="Contact_paraghrph">Hello! we are located in  (Pakistan). feel free to use the contact form
                     to reach us. our team is happy to answer all your queries.
                      </p>
                      </span>
@@ -18,7 +19,7 @@ const ContactUs=()=>{
                         <h2>Gmail Address</h2>
                         <h2>dream.starcoder@gmail.com </h2>
                         <h2>Whatsapp</h2>
-                        <h2>+923130908533</h2>
+                        <h2>+3129009520</h2>
                         
                         </div>
                      </div>
@@ -26,7 +27,7 @@ const ContactUs=()=>{
             </div>
             
            
-        </div>
+        </Zoom>
     )
 }
 export default ContactUs
