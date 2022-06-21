@@ -1,3 +1,6 @@
+*{
+    font-family:Quicksand, sans-serif;  
+}
 .WebDevelopment_content{
     padding-right: 83px;
     padding-left: 83px;
@@ -6,22 +9,18 @@
     padding-top: 50px;
 }
 .web_heading {
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 34px;
-    letter-spacing: 3px;
-}
-.guesttwo_heading{
-    text-transform: uppercase;
-}
-.web_paragraf{
     text-transform: capitalize;
-    font-size: 24px;
-    font-family: arial;
-    text-align: justify;
-    letter-spacing: 2px;
+    font-size: 30px;
+    color: #1890ff;
+    text-align: center;
 }
-.web_app_img{
-    float: right;
+
+.web_paragraf{
+    text-align: justify;
+    padding-left: 140px;
+    padding-right: 140px;
+    text-justify: auto;
+    font-size: 24px;
+    justify-content: center;
 }
 

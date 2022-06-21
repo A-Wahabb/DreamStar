@@ -1,19 +1,19 @@
+*{
+  font-family:Quicksand, sans-serif;
+}
 .parent{
   margin: 0px;
   padding: 0px;
 }
 .logo{
   display: inline-block;
-  width: 150px;
-  height: 124px;
-  margin: 10px 10px 10px 4%;
-  padding: .1%;
-  /* padding-left: 130px; */
-  line-height: 120px;
+  margin-left: 7%;
+  margin-top: 1%;
+
 }
 .Nav-part{
     display: block;
-    height: 140px;
+    height: 100px;
     margin: 0px;
 }
 
@@ -42,14 +42,12 @@ ul li a{
 .slick-dots li button {
   background: black !important;
 }
- .slick-dots li.slick-active button {
+.slick-dots li.slick-active button {
     background: #1890ff !important;
   }
 
- ul li a:hover,.link{
-  background-color: #448ee4;
-  color: white;
-  margin: 1px;
+.active{
+  color: #448ee4;
  }
  @media screen and (max-width: 950px){
   .non-mobile-links{

@@ -1,19 +1,26 @@
 .AppDevelopment_content{
-    padding-right: 120px;
-    padding-left: 120px;
+    padding-right: 16px;
+    padding-left: 60px;
   
 }
 .AppDevelopment_heading{
-    padding-top: 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #1890ff;
+    font-family:Quicksand, sans-serif;
     text-align: center;
+    margin-top: 30px;
 }
 
-.AppDevelopment_peragraf{
-    text-align: justify;
-    font-size: 24px;
+.AppDevelopment_per{
+    padding-left: 140px;
+    padding-right: 140px;
     text-transform: capitalize;
-    letter-spacing: 0.5px;
+    font-size: 24px;
+    font-family:Quicksand, sans-serif;
+    justify-content: center;
+    margin-top: 12px;
+    height: 30vh;
 }
 .app_img{
     float: right;  

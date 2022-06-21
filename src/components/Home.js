@@ -3,28 +3,25 @@ import './home.css';
 
 import { Bounce, Zoom } from "react-reveal";
 
-
+import { useNavigate } from "react-router-dom";
 const Home=() =>{
+    let navigate=useNavigate()
     return(
-        <Zoom>
+        <div>
         <div className='home'>
            
-           <div className='slider'>
-          
-           <div>
-           <img alt='DreamStarCoder' className='contentStyle' src={process.env.PUBLIC_URL+'/slideone.jpg'}/>
-          </div>    
-           <div>
-           <img alt='UI&UX' className='contentStyle'src={process.env.PUBLIC_URL+'/ui.jpg'}/>
-          </div>
-          <div>
-           <img alt='AppDevelopment' className='contentStyle'src={process.env.PUBLIC_URL+'/app.jpg'}/>
-          </div>
-          <div>
-           <img alt='WebDevelopment' className='contentStyle'src={process.env.PUBLIC_URL+'/web.jpg'}/>
-          </div>
-
-           </div>
+           <Zoom>
+           <img alt='DreamStarCoder' className='contentStyle' src={process.env.PUBLIC_URL+'/splashscreen.png'}/>
+          </Zoom>    
+           <Zoom>  
+           <img alt='UI&UX' className='contentStyle'src={process.env.PUBLIC_URL+'/uiux.png'}/>
+          </Zoom>
+          <Zoom>
+           <img alt='AppDevelopment' className='contentStyle'src={process.env.PUBLIC_URL+'/webdevelopment.png'}/>
+          </Zoom>
+          <Zoom>
+           <img alt='WebDevelopment' className='contentStyle'src={process.env.PUBLIC_URL+'/appdevelopment.png'}/>
+          </Zoom>
            <br/>
                          <div>
                         <h1 className='firstheading'>
@@ -38,8 +35,12 @@ const Home=() =>{
                             Our team would cpnvert your ideas into a market-competitive product and lead your business high up to the sky. 
                                 
                         </p>
-                        <div className='readmorediv'>
-                        <button className='readmorebtn'>Read more</button></div>
+                        {/* <div className='readmorediv'>
+                        <button className='rdmbtn' onClick={()=>{
+                            navigate('/about',{
+                                replace:true
+                            })
+                        }}>Read more</button></div> */}
            </div>
            <div className='webmobAppdlp'>
                       <h2 className='webmobAppdlp_heading'>web & mobile Application development</h2>
@@ -49,8 +50,12 @@ const Home=() =>{
                        development efficiency and the performance and feel of a native application. We also build
                         react applications that are efficient, and easy to maintain.  
                       </p>  
-                      <div className='rdmdiv'>
-                        <button className='rdmbtn'>read more</button></div>
+                      {/* <div className='rdmdiv'>
+                        <button className='rdmbtn' onClick={()=>{
+                            navigate('/web-development',{
+                                replace:true
+                            })
+                        }} >read more</button></div> */}
            </div>
           
                <Bounce className="ourpartnersmaindiv">
@@ -65,7 +70,7 @@ const Home=() =>{
                    </div>
                </Bounce>
         </div>
-        </Zoom>
+        </div>
     )
 }
 export default Home

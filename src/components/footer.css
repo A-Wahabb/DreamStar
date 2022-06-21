@@ -1,25 +1,27 @@
+*{
+    font-family:Quicksand, sans-serif;
+}
 .footer_main{
     padding-top: 25px;
     padding-right: 83px;
     padding-left: 83px;
     display: flex;
     width: 100%;
-    height: 400px;
+    height: 250px;
     padding-bottom: 10px;
 }
 .our_company{
         width: 100%;
         display: inline-block;
        padding-left: 83px;
+       
 }
-.our_company .link h3{
+.our_company  h3{
    width: 50%;
+ 
 }
-.our_company h3:hover{
-    width: 50%;
-    background-color: #448ee4;
-    color: white;
-    padding-left: 3px;
+.our_company h3::before{
+    content: "⭐ ";
 }
 
 .follow_us{
@@ -31,13 +33,14 @@
 }
 
 .socialicon{
-    display: flex;
     width: 48px;
-    height: 48px;
-    
+    height: 48px; 
 }
 .socialicondiv{
     padding-right: 10px;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
 }
 .copyright_note{
     width: 100%;
@@ -46,14 +49,13 @@
     text-align: center;
     background-color: #414141;
     font-size: 16px;
-    font-family: arial;
     padding-bottom: 10px;
     color: #fff;
     
 }
 .company_name{
     font-size: 24px;
-    font-family: arial;
+    
 }
 .gmail_div{
     display: flex;
@@ -76,7 +78,21 @@
 .copyright_note{
     width: 100%;
 }
-                                      /* ResponsiveNess */ 
+.active{
+    color: #448ee4;
+   }  
+.footer-nav{
+display: flex;
+flex-direction: column;
+   }  
+.footer-nav li:before{
+    content: "⭐"
+}   
+.footer-nav li:not(:last-child) {
+    border-right:none;
+    
+  }    
+/* ResponsiveNess */ 
 
  @media screen and (max-width: 870px){
     .footer_main{

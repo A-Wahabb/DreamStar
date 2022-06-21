@@ -1,14 +1,17 @@
+*{
+    font-family:Quicksand, sans-serif;
+}
 .about_content{
-    padding-left: 120px;
-    padding-right: 120px;
+   
     padding-top: 20px;
 }
 .about_paragraf{
-    font-size: 20px;
-    font-family: arial;
     text-align: justify;
-    text-transform: capitalize;
-    letter-spacing: 2px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-justify: auto;
+    font-size: 24px;
+    justify-content: center;
 }
 ol{
     list-style:outside;
@@ -19,5 +22,10 @@ ol li{
     margin-left: 2px;
 }
 ol>li a{
-    background-color: aqua;
+    text-align: justify;
+    padding-left: 140px;
+    padding-right: 140px;
+    text-justify: auto;
+    font-size: 24px;
+    justify-content: center;
 }

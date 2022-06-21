@@ -1,6 +1,6 @@
-.contact_content{
-    padding-right: 120px;
-    padding-left: 120px;
+
+*{
+    font-family: Quick Sand,;
 }
 .Contact_paraghrph{
     text-transform: capitalize;
@@ -13,5 +13,65 @@
 .contact_address{
     margin: 30px;
     display: flex;
+    width: 80%;
+    justify-content: center;
     flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
 }
+.contact_content{
+    text-align: justify;
+    padding-left: 140px;
+    padding-right: 140px;
+    text-justify: auto;
+    font-size: 24px;
+    justify-content: center;  
+
+}
+.contact_form {
+    width: 60%;
+    padding: 10px;
+    float: right;
+ }
+ .form_heading{
+     width: 300px;
+     font-size: 29px;
+     color: rgb(51, 153, 225);
+ }
+ label{
+     font-size: 16px;
+     color: rgb(51, 153, 225);
+ }
+ .input_field{
+     width: 50%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     border: 1px solid transparent;
+     border-radius: 5px;
+     background-color: rgba(231, 231, 222, 0.914);
+ }
+ textarea{
+     width: 60%;
+     height: 150px;
+     padding: 12px 20px;
+     margin: 8px 0;
+     background-color: rgba(231, 231, 222, 0.914);
+     border: 1px solid transparent;
+     border-radius: 5px;
+ }
+ .submit_reset_button{
+         border: none;
+         padding: 16px 32px;
+         width: 150px;
+         text-decoration: none;
+         margin: 4px 6px;
+         cursor: pointer;
+         background-color: #11abed;
+         color: white;
+         font-size: 12px;
+         border-radius: 50px;
+ }
+ .submit_reset_button:hover{
+     background-color:#70b741;;
+     transition: 0.2s;
+ }
