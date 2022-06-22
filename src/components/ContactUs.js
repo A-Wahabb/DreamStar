@@ -6,7 +6,7 @@ const ContactUs=()=>{
     return(
         <Zoom>
             <div>
-                <img alt='Contact Us' className='contentStyle' src={process.env.PUBLIC_URL+'/contactus.png'} />
+                <img alt='Contact Us' className='contentStyle' src={process.env.PUBLIC_URL+'/contactus.svg'} />
             </div>
             <div >
                 <p className="contact_content">

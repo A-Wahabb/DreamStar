@@ -6,7 +6,7 @@ const WebDevelopment=()=>{
     return(
         <Zoom>
             <div>
-                <img alt='WebDevelopment' className='contentStyle' src={process.env.PUBLIC_URL+'/webdevelopment.png'}/>
+                <img alt='WebDevelopment' className='contentStyle' src={process.env.PUBLIC_URL+'/webdevelopment.svg'}/>
             </div>
            <div className="WebDevelopment_content">
                <span className="web_content">

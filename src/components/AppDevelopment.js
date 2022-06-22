@@ -7,7 +7,7 @@ const AppDevelopment=()=>{
     return(
         <Zoom>
          <div>
-         <img alt='AppDevelopment' className='contentStyle'src={process.env.PUBLIC_URL+'/appdevelopment.png'}/>
+         <img alt='AppDevelopment' className='contentStyle'src={process.env.PUBLIC_URL+'/appdevelopment.svg'}/>
          </div>
          <div  className='AppDevelopment_content'>
              <div>

@@ -7,7 +7,7 @@ const About=()=>{
     return(
         <Zoom>
          <div>
-         <img alt='AppDevelopment' className='contentStyle'src={process.env.PUBLIC_URL+'/aboutus.png'}/>
+         <img alt='AppDevelopment' className='contentStyle'src={process.env.PUBLIC_URL+'/aboutus.svg'}/>
          </div>
          <div className='about_content'> 
          <p className="about_paragraf">

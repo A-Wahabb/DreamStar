@@ -11,16 +11,16 @@ const Home=() =>{
         <div className='home'>
            
            <Zoom>
-           <img alt='DreamStarCoder' className='contentStyle' src={process.env.PUBLIC_URL+'/splashscreen.png'}/>
+           <img alt='DreamStarCoder' className='contentStyle' src={process.env.PUBLIC_URL+'/splashscreen.svg'}/>
           </Zoom>    
            <Zoom>  
-           <img alt='UI&UX' className='contentStyle'src={process.env.PUBLIC_URL+'/uiux.png'}/>
+           <img alt='UI&UX' className='contentStyle'src={process.env.PUBLIC_URL+'/uiux.svg'}/>
           </Zoom>
           <Zoom>
-           <img alt='AppDevelopment' className='contentStyle'src={process.env.PUBLIC_URL+'/webdevelopment.png'}/>
+           <img alt='AppDevelopment' className='contentStyle'src={process.env.PUBLIC_URL+'/webdevelopment.svg'}/>
           </Zoom>
           <Zoom>
-           <img alt='WebDevelopment' className='contentStyle'src={process.env.PUBLIC_URL+'/appdevelopment.png'}/>
+           <img alt='WebDevelopment' className='contentStyle'src={process.env.PUBLIC_URL+'/appdevelopment.svg'}/>
           </Zoom>
            <br/>
                          <div>
