@@ -1,56 +1,64 @@
-*{
-  font-family:Quicksand, sans-serif;
+* {
+  font-family: Quicksand, sans-serif;
 }
-.parent{
+
+.parent {
   margin: 0px;
   padding: 0px;
 }
-.logo{
+
+.logo {
   display: inline-block;
   margin-left: 7%;
   margin-top: 1%;
 
 }
-.Nav-part{
-    display: block;
-    height: 100px;
-    margin: 0px;
+
+.Nav-part {
+  display: block;
+  height: 100px;
+  margin: 0px;
 }
 
-.non-mobile-links{
+.non-mobile-links {
   position: relative;
-  float:right;
+  float: right;
   right: 5%;
   top: 30%;
 }
+
 ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
 }
 
-ul li a{
+ul li a {
   text-decoration: none;
   color: black;
   padding: 10px 20px;
   font-weight: bold;
 }
- ul li:not(:last-child) {
+
+ul li:not(:last-child) {
   border-right: 1px solid black;
-  
-} 
+
+}
+
 .slick-dots li button {
   background: black !important;
 }
-.slick-dots li.slick-active button {
-    background: #1890ff !important;
-  }
 
-.active{
+.slick-dots li.slick-active button {
+  background: #1890ff !important;
+}
+
+.active {
   color: #448ee4;
- }
- @media screen and (max-width: 950px){
-  .non-mobile-links{
+}
+
+@media screen and (max-width: 950px) {
+  .non-mobile-links {
     display: flex;
   }
- }
+}

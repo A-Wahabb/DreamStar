@@ -1,0 +1,210 @@
+@font-face {
+    font-family: "Quicksand-medium";
+    src: url("/src/Assets/font/Quicksand/static/Quicksand-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand-light";
+    src: url("/src/Assets/font/Quicksand/static/Quicksand-Light.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand-bold";
+    src: url("/src/Assets/font/Quicksand/static/Quicksand-Bold.ttf");
+    font-weight: bold;
+}
+
+* {
+    font-family: "Quicksand-medium";
+    font-size: 16px;
+}
+
+#root {
+    background-color: #f4f5f7;
+    min-height: 100vh;
+    overflow-x: hidden;
+
+}
+
+
+.fs12 {
+    font-size: 12px;
+}
+
+.fs14 {
+    font-size: 14px !important;
+}
+
+.fs16 {
+    font-size: 16px !important;
+}
+
+.fs18 {
+    font-size: 18px;
+}
+
+.fs20 {
+    font-size: 20px;
+}
+
+.fs22 {
+    font-size: 22px;
+}
+
+.fs24 {
+    font-size: 24px;
+}
+
+.fs32 {
+    font-size: 32px;
+}
+
+.fs50 {
+    font-size: 50px;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-700 {
+    font-weight: 700;
+    font-family: "Quicksand-bold";
+}
+
+
+.tc-plum {
+    color: #272249 !important;
+}
+
+
+.fw-600 {
+    font-weight: 600 !important;
+    font-family: "Quicksand-bold";
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.brdr-plum {
+    border: 1px solid #272249;
+}
+
+/* Waves */
+
+/** CSS using pseudo-elements: **/
+
+#A {
+    background: #f4f5f7;
+}
+
+#B {
+    background: #FFF;
+}
+
+#C {
+    background: #853493;
+}
+
+#A::after {
+    content: "";
+    position: relative;
+    left: -3rem;
+    /* padding * -1 */
+    top: calc(3rem - 4rem / 2);
+    /* padding - height/2 */
+    float: left;
+    display: block;
+    height: 4rem;
+    width: 100vw;
+    background: hsla(0, 0%, 100%, 0.5);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 70 500 60' preserveAspectRatio='none'%3E%3Crect x='0' y='0' width='500' height='500' style='stroke: none; fill: %23FFF;' /%3E%3Cpath d='M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z' style='stroke: none; fill: %23f4f5f7;'%3E%3C/path%3E%3C/svg%3E");
+    background-size: 100% 100%;
+    transform: scaleX(-1);
+}
+
+#B::after {
+    content: "";
+    position: relative;
+    left: -3rem;
+    /* padding * -1 */
+    top: calc(3rem - 4rem / 2);
+    /* padding - height/2 */
+    float: left;
+    display: block;
+    height: 4rem;
+    width: 100vw;
+    background: hsla(0, 0%, 100%, 0.5);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 70 500 60' preserveAspectRatio='none'%3E%3Crect x='0' y='0' width='500' height='500' style='stroke: none; fill: %23853493;' /%3E%3Cpath d='M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z' style='stroke: none; fill: %23FFF;'%3E%3C/path%3E%3C/svg%3E");
+    background-size: 100% 100%;
+}
+
+
+/** Cosmetics **/
+
+* {
+    margin: 0;
+}
+
+#A,
+#B {
+    padding: 3rem;
+}
+
+div {
+    font-family: monospace;
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+
+#A {
+    color: white;
+}
+
+
+.banner_small:before {
+    content: '';
+    left: -10px;
+    top: -4px;
+    width: 32px;
+    height: 32px;
+    background-color: #cceae7;
+    position: absolute;
+    z-index: -1;
+    border-radius: 32px;
+}
+
+.banner_small {
+    z-index: 9999;
+}
+
+.service_logo {
+    display: inline-block;
+    height: 6.25rem;
+    flex: 0 0 6.25rem;
+    overflow: hidden;
+    text-align: center;
+    line-height: 6.25rem;
+    width: 6.25rem;
+    background-color: rgb(235, 241, 254)
+}
+
+.sub_service_logo {
+    display: inline-block;
+    height: 4.25rem;
+    flex: 0 0 4.25rem;
+    overflow: hidden;
+    text-align: center;
+    line-height: 4.25rem;
+    width: 4.25rem;
+    background-color: #E6E6E6
+}
+
+.sub_service_logo img {
+    max-width: 3.25rem;
+}

@@ -17,13 +17,13 @@ const Footer = () => {
             </li>
             <li>
               <NavLink to="/web-development" activeClassName="selected">
-              Web Development
+                Web Development
                 <ScrollToTop />
               </NavLink>
             </li>
             <li>
-              <NavLink to="/app-development" activeClassName="selected">
-                App Development
+              <NavLink to="/what-we-dot" activeClassName="selected">
+                What we DO
                 <ScrollToTop />
               </NavLink>
             </li>
@@ -44,25 +44,25 @@ const Footer = () => {
           <div className="follow_us">
             <h2>Follow Us</h2>
             <div className="socialicondiv">
-                <img
-                  alt="Linkdin"
-                  src={process.env.PUBLIC_URL + "\\linkdin.png"}
-                  title="linkdin"
-                  className="socialicon"
-                  height={20}
-                  width={20}
-                />
-              
-    
-                <img
-                  alt="Whatsapp"
-                  src={process.env.PUBLIC_URL + "\\watsapp.png"}
-                  title="wathsapp"
-                  className="socialicon"
-                  height={20}
-                  width={20}
-                />
-          </div> 
+              <img
+                alt="Linkdin"
+                src={process.env.PUBLIC_URL + "\\linkdin.png"}
+                title="linkdin"
+                className="socialicon"
+                height={20}
+                width={20}
+              />
+
+
+              <img
+                alt="Whatsapp"
+                src={process.env.PUBLIC_URL + "\\watsapp.png"}
+                title="wathsapp"
+                className="socialicon"
+                height={20}
+                width={20}
+              />
+            </div>
           </div>
         </Bounce>
         <div className="contact_us">
